@@ -1,18 +1,29 @@
+/* eslint-disable no-console */
 import express from 'express';
 import cors from 'cors';
-import { Product } from "./model/productModel";
+import { Product } from './model/productModel.js';
 
-require('dotenv').config();
+import dotenv from 'dotenv';
+
+import { connect } from './config/dataBase.js';
+
+dotenv.config();
+
+connect();
+
+// require('./model/productModel').connect();
 
 const app = express();
-app.use(cors())
+
+app.use(cors());
+
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.get('/products', async (req, res) => {
+app.get('/products', async(req, res) => {
   const page = parseInt(req.query.page) || 1;
   const perPage = 5;
   const offset = (page - 1) * perPage;

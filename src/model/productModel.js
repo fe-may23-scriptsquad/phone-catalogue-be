@@ -53,5 +53,5 @@ Product.init(
     sequelize,
     modelName: 'Product',
     tableName: 'products',
-  }
+  },
 );
