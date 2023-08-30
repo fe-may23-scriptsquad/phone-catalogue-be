@@ -1,18 +1,22 @@
 import express from 'express';
 import cors from 'cors';
-import { Product } from "./model/productModel";
+import dotenv from 'dotenv';
+import { Product } from './model/productModel.js';
+import { sequelize } from "./config/dataBase.js";
 
-require('dotenv').config();
+dotenv.config();
 
 const app = express();
-app.use(cors())
+
+app.use(cors());
+
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-app.get('/products', async (req, res) => {
+app.get('/products', async(req, res) => {
   const page = parseInt(req.query.page) || 1;
   const perPage = 5;
   const offset = (page - 1) * perPage;
@@ -25,11 +29,17 @@ app.get('/products', async (req, res) => {
 
     res.status(200).json(productsOnPage);
   } catch (error) {
-    console.error(error);
     res.status(500).json({ error: 'Something went wrong' });
   }
 });
 
-app.listen(port, () => {
-  console.log(`Phone catalogue app working on Port: ${port}`);
-});
+sequelize
+  .sync()
+  .then(() => {
+    app.listen(port, () => {
+      console.log(`Phone catalogue app working on Port: ${port}`);
+    });
+  })
+  .catch((error) => {
+    console.error('Unable to connect to the database:', error);
+  });
