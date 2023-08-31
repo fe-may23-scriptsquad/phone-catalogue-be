@@ -1,13 +1,17 @@
 import express from 'express';
+import dotenv from 'dotenv';
+import cors from 'cors';
 import bodyParser from 'body-parser';
-import Product from './model/Product';
 import { sequelize } from './sequelize';
 import { getAll } from './utils/getAllProducts';
 
+dotenv.config();
+
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 
 app.use(bodyParser.json());
+app.use(cors())
 
 sequelize.authenticate()
     .then(() => {
@@ -22,7 +26,7 @@ app.get('/', (req: any, res: any) => {
     res.send('Hello World!');
 });
 
-app.get('/product', async(req, res) => {
+app.get('/products', async(req, res) => {
     let page = 1;
   
     if (typeof req.query.page === 'string') {
@@ -32,7 +36,7 @@ app.get('/product', async(req, res) => {
     const offset = (page - 1) * perPage;
   
     try {
-      const productsOnPage = await Product.findAll({
+      const productsOnPage = await getAll({
         offset,
         limit: perPage,
       });
@@ -43,13 +47,6 @@ app.get('/product', async(req, res) => {
       res.status(500).json({ error: 'Something went wrong' });
     }
   });
-
-
-app.get('/products', async (req, res) => {
-        const allProducts = await getAll();
-        res.statusCode = 200;
-        res.json(allProducts)
-})
 
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);

@@ -1,7 +1,13 @@
 import { Sequelize } from 'sequelize';
+import dotenv from 'dotenv';
+
+dotenv.config();
+const { DB_PASSWORD, DB_HOST, DB_NAME, DB_USER } = process.env
+
+const dbURL = `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`;
 
 export const sequelize = new Sequelize(
-   'postgres://products_756b_user:iDPx3JSyOl1W5VjcpIRlbz6uuFHybkZi@dpg-cjmukhlhe99c73efo5mg-a.frankfurt-postgres.render.com/products_756b',
+   dbURL,
     {
         dialect: 'postgres',
         dialectOptions: {
