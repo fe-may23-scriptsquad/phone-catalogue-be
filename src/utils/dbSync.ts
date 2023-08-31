@@ -5,7 +5,7 @@ export const syncDB = () => {
       .then(() => {
           console.log('Product table created');
       })
-      .catch((err: any) => {
+      .catch((err) => {
           console.error('Unable to create product table:', err);
       });
 }
