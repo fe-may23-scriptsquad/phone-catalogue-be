@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3002;
 
 app.use(bodyParser.json());
 app.use(cors())
-
+app.use(express.static('public'))
 sequelize.authenticate()
     .then(() => {
         console.log('Connected to PostgreSQL database');
