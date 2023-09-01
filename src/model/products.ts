@@ -10,7 +10,13 @@ Product.init({
     autoIncrement: true,
   },
   category: DataTypes.STRING,
-  phoneId: DataTypes.STRING,
+  phoneId: {
+    type: DataTypes.STRING,
+    references: {
+      model: 'phones',
+      key: 'id'
+    }
+  },
   itemId: DataTypes.STRING,
   name: DataTypes.STRING,
   fullPrice: DataTypes.INTEGER,
@@ -23,7 +29,7 @@ Product.init({
   image: DataTypes.STRING,
 }, {
   sequelize,
-  modelName: 'Product',
+  modelName: 'product',
 });
 
 export default Product;
