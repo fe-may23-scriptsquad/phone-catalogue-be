@@ -36,17 +36,29 @@ app.get('/products', async(req: Request, res: Response) => {
   if (typeof req.query.page === 'string') {
     page = parseInt(req.query.page) || 1;
   }
-  let perPage = 5;
+  let perPage = 5;  
 
-  if (typeof req.body.limit === "number") {
-    perPage = +req.body.limit || 5;
+  if (typeof req.query.limit === "string") {
+    perPage = parseInt(req.query.limit) || 5;
   } 
   const offset = (page - 1) * perPage;
+
+  const category = req.query.category || 'phones';
+
+  const sortBy = req.query.sortBy || 'id';
+  const orderIn = req.query.orderIn || 'ASC';
 
   try {
     const productsOnPage = await getAll({
       offset,
       limit: perPage,
+      where: {
+        category
+      },
+      order: [
+        [sortBy, orderIn,],
+        ['id', 'ASC']
+      ]
     });
 
     res.status(200).json(productsOnPage);
@@ -55,6 +67,43 @@ app.get('/products', async(req: Request, res: Response) => {
     res.status(500).json({ error: 'Something went wrong' });
   }
 });
+app.get('/products/hot-price', async (req, res) => {
+  let page = 1;
+
+  if (typeof req.query.page === 'string') {
+    page = parseInt(req.query.page);
+  }
+  let perPage = 5;  
+
+  if (typeof req.query.limit === "string") {
+    perPage = parseInt(req.query.limit);
+  } 
+  const offset = (page - 1) * perPage;
+
+  try {
+    const productsOnPage = await getAll({
+      offset,
+      limit: perPage,
+      order: sequelize.literal('("fullPrice" - price) DESC'),
+    });
+
+    res.status(200).json(productsOnPage);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Something went wrong' });
+  }
+})
+
+app.get('/products/:id', async (req, res) => {
+  const { id } = req.params; 
+  try {
+    const productById = await Product.findByPk(id);
+    res.status(200).json(productById);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Something went wrong' });
+  }
+})
 
 app.get('/phones', async(req: Request, res: Response) => {
   let page = 1;
@@ -64,8 +113,8 @@ app.get('/phones', async(req: Request, res: Response) => {
   }
   let perPage = 5;
 
-  if (typeof req.body.limit === "number") {
-    perPage = +req.body.limit || 5;
+  if (typeof req.query.limit === "string") {
+    perPage = parseInt(req.query.limit) || 5;
   } 
   const offset = (page - 1) * perPage;
 
@@ -74,7 +123,6 @@ app.get('/phones', async(req: Request, res: Response) => {
       offset,
       limit: perPage,
     });
-
     res.status(200).json(productsOnPage);
   } catch (error) {
     console.error(error);
@@ -102,8 +150,8 @@ app.get('/next', async (req, res) => {
 app.get('/phones/:id', async (req, res) => {
   const { id } = req.params; 
   try {
-    const nextProduct = await Phones.findByPk(id);
-    res.status(200).json(nextProduct);
+    const phoneById = await Phones.findByPk(id);
+    res.status(200).json(phoneById);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Something went wrong' });
@@ -113,3 +161,25 @@ app.get('/phones/:id', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+app.get('/products/quantity', async(req, res) => {
+  try {
+    const [phonesCount, tabletsCount, accessoriesCount] = await Promise.all([
+      Product.count({ where: { category: 'phones' } }),
+      Product.count({ where: { category: 'tablets' } }),
+      Product.count({ where: { category: 'accessories' } }),
+    ]);
+
+    const categoriesLength = {
+      phone: phonesCount,
+      tablets: tabletsCount,
+      accesories: accessoriesCount,
+    }
+    res.status(200).json(categoriesLength);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Something went wrong' });
+  }
+})
+
+
