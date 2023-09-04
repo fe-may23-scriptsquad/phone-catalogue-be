@@ -63,12 +63,14 @@ module.exports = {
         type: DataTypes.ARRAY(DataTypes.STRING),
       },
       createdAt: {
-        type: Sequelize.DATE,
         allowNull: true,
+        type: Sequelize.DATE,
+        defaultValue: Date.now()
       },
       updatedAt: {
-        type: Sequelize.DATE,
         allowNull: true,
+        type: Sequelize.DATE,
+        defaultValue: Date.now(),
       },
     });
   },

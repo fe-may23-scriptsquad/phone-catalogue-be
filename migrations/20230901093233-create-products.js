@@ -3,8 +3,6 @@
 
 /** @type {import('sequelize-cli').Migration} */
 
-const { DataTypes } = require('sequelize');
-
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('products', {
@@ -57,13 +55,13 @@ module.exports = {
       },
       createdAt: {
         allowNull: true,
-        defaultValue: DataTypes.NOW,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Date.now()
       },
       updatedAt: {
         allowNull: true,
-        defaultValue: DataTypes.NOW,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Date.now()
       }
     });
   },
