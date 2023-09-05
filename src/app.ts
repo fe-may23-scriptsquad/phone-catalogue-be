@@ -38,7 +38,7 @@ app.get('/products', async(req: Request, res: Response) => {
     page = parseInt(req.query.page) || 1;
   }
 
-  let perPage = 5;
+  let perPage = 16;
 
   if (typeof req.query.limit === 'string') {
     perPage = parseInt(req.query.limit) || 5;
@@ -48,8 +48,8 @@ app.get('/products', async(req: Request, res: Response) => {
 
   const category = req.query.category || 'phones';
 
-  const sortBy = req.query.sortBy || 'id';
-  const orderIn = req.query.orderIn || 'ASC';
+  const sortBy = req.query.sortBy || 'year';
+  const orderIn = req.query.orderIn || 'DESC';
 
   try {
     const productsOnPage = await getAll({
@@ -78,7 +78,7 @@ app.get('/products/hot-price', async(req, res) => {
     page = parseInt(req.query.page);
   }
 
-  let perPage = 5;
+  let perPage = 16;
 
   if (typeof req.query.limit === 'string') {
     perPage = parseInt(req.query.limit);
@@ -117,13 +117,13 @@ app.get('/phones', async(req: Request, res: Response) => {
   let page = 1;
 
   if (typeof req.query.page === 'string') {
-    page = parseInt(req.query.page) || 1;
+    page = parseInt(req.query.page);
   }
 
-  let perPage = 5;
+  let perPage = 16;
 
   if (typeof req.query.limit === 'string') {
-    perPage = parseInt(req.query.limit) || 5;
+    perPage = parseInt(req.query.limit);
   }
 
   const offset = (page - 1) * perPage;
