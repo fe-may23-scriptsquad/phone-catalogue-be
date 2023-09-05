@@ -14,8 +14,8 @@ Product.init({
     type: DataTypes.STRING,
     references: {
       model: 'phones',
-      key: 'id'
-    }
+      key: 'id',
+    },
   },
   itemId: DataTypes.STRING,
   name: DataTypes.STRING,

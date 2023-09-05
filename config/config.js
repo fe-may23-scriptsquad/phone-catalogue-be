@@ -2,7 +2,8 @@
 const dotenv = require('dotenv');
 
 dotenv.config();
-const { DB_PASSWORD, DB_HOST, DB_NAME, DB_USER } = process.env
+
+const { DB_PASSWORD, DB_HOST, DB_NAME, DB_USER } = process.env;
 
 const dbURL = `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`;
 
@@ -13,17 +14,17 @@ const settings = {
       require: true,
       rejectUnauthorized: false,
     },
-  }
-}
+  },
+};
 
 module.exports = {
   development: {
-    ...settings
+    ...settings,
   },
   test: {
-    ...settings
+    ...settings,
   },
   production: {
-    ...settings
-  }
+    ...settings,
+  },
 };

@@ -1,8 +1,9 @@
-import Product from "../model/Product";
-import { sequelize } from "../sequelize";
+/* eslint-disable no-console */
+import Product from '../model/Product';
+import { sequelize } from '../sequelize';
 import productsData from '../api/phones.json';
 
-export const addData = async () => {
+export const addData = async() => {
   try {
     await sequelize.sync();
     await Product.bulkCreate(productsData);
@@ -12,4 +13,4 @@ export const addData = async () => {
   } finally {
     await sequelize.close();
   }
-}
+};
