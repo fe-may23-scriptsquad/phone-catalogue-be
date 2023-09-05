@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+// eslint-disable-next-line no-shadow
 import express, { Request, Response } from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
@@ -14,8 +16,8 @@ const app = express();
 const PORT = process.env.PORT || 3002;
 
 app.use(bodyParser.json());
-app.use(cors())
-app.use(express.static('public'))
+app.use(cors());
+app.use(express.static('public'));
 
 sequelize.authenticate()
   .then(() => {
@@ -25,8 +27,7 @@ sequelize.authenticate()
     console.error('Unable to connect to the database:', error);
   });
 
-
-app.get('/', (req: Request, res: Response) => {
+app.get('/', (_req: Request, res: Response) => {
   res.send('Hello World!');
 });
 
@@ -36,11 +37,13 @@ app.get('/products', async(req: Request, res: Response) => {
   if (typeof req.query.page === 'string') {
     page = parseInt(req.query.page) || 1;
   }
-  let perPage = 5;  
 
-  if (typeof req.query.limit === "string") {
+  let perPage = 5;
+
+  if (typeof req.query.limit === 'string') {
     perPage = parseInt(req.query.limit) || 5;
-  } 
+  }
+
   const offset = (page - 1) * perPage;
 
   const category = req.query.category || 'phones';
@@ -53,12 +56,12 @@ app.get('/products', async(req: Request, res: Response) => {
       offset,
       limit: perPage,
       where: {
-        category
+        category,
       },
       order: [
-        [sortBy, orderIn,],
-        ['id', 'ASC']
-      ]
+        [sortBy, orderIn],
+        ['id', 'ASC'],
+      ],
     });
 
     res.status(200).json(productsOnPage);
@@ -67,17 +70,20 @@ app.get('/products', async(req: Request, res: Response) => {
     res.status(500).json({ error: 'Something went wrong' });
   }
 });
-app.get('/products/hot-price', async (req, res) => {
+
+app.get('/products/hot-price', async(req, res) => {
   let page = 1;
 
   if (typeof req.query.page === 'string') {
     page = parseInt(req.query.page);
   }
-  let perPage = 5;  
 
-  if (typeof req.query.limit === "string") {
+  let perPage = 5;
+
+  if (typeof req.query.limit === 'string') {
     perPage = parseInt(req.query.limit);
-  } 
+  }
+
   const offset = (page - 1) * perPage;
 
   try {
@@ -92,18 +98,20 @@ app.get('/products/hot-price', async (req, res) => {
     console.error(error);
     res.status(500).json({ error: 'Something went wrong' });
   }
-})
+});
 
-app.get('/products/:id', async (req, res) => {
-  const { id } = req.params; 
+app.get('/products/:id', async(req, res) => {
+  const { id } = req.params;
+
   try {
     const productById = await Product.findByPk(id);
+
     res.status(200).json(productById);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Something went wrong' });
   }
-})
+});
 
 app.get('/phones', async(req: Request, res: Response) => {
   let page = 1;
@@ -111,11 +119,13 @@ app.get('/phones', async(req: Request, res: Response) => {
   if (typeof req.query.page === 'string') {
     page = parseInt(req.query.page) || 1;
   }
+
   let perPage = 5;
 
-  if (typeof req.query.limit === "string") {
+  if (typeof req.query.limit === 'string') {
     perPage = parseInt(req.query.limit) || 5;
-  } 
+  }
+
   const offset = (page - 1) * perPage;
 
   try {
@@ -123,6 +133,7 @@ app.get('/phones', async(req: Request, res: Response) => {
       offset,
       limit: perPage,
     });
+
     res.status(200).json(productsOnPage);
   } catch (error) {
     console.error(error);
@@ -130,39 +141,42 @@ app.get('/phones', async(req: Request, res: Response) => {
   }
 });
 
-
-app.get('/next', async (req, res) => {
+app.get('/next', async(req, res) => {
   let productId = 1;
 
-  if (req.query.productId !== undefined && typeof req.query.productId === 'string') {
+  if (req.query.productId !== undefined
+    && typeof req.query.productId === 'string') {
     productId = parseInt(req.query.productId) + 1;
   }
 
   try {
     const nextProduct = await Product.findByPk(productId);
+
     res.status(200).json(nextProduct);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Something went wrong' });
   }
-})
+});
 
-app.get('/phones/:id', async (req, res) => {
-  const { id } = req.params; 
+app.get('/phones/:id', async(req, res) => {
+  const { id } = req.params;
+
   try {
     const phoneById = await Phones.findByPk(id);
+
     res.status(200).json(phoneById);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Something went wrong' });
   }
-})
+});
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-app.get('/products/quantity', async(req, res) => {
+app.get('/products/quantity', async(_req, res) => {
   try {
     const [phonesCount, tabletsCount, accessoriesCount] = await Promise.all([
       Product.count({ where: { category: 'phones' } }),
@@ -174,12 +188,11 @@ app.get('/products/quantity', async(req, res) => {
       phone: phonesCount,
       tablets: tabletsCount,
       accesories: accessoriesCount,
-    }
+    };
+
     res.status(200).json(categoriesLength);
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Something went wrong' });
   }
-})
-
-
+});

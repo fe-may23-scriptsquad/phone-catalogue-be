@@ -5,20 +5,20 @@ const { DataTypes } = require('sequelize');
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
-  up: async (queryInterface, Sequelize) => {
+  up: async(queryInterface, Sequelize) => {
     await queryInterface.createTable('phones', {
       id: {
         type: Sequelize.STRING,
         primaryKey: true,
       },
       namespaceId: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       name: {
         type: Sequelize.STRING,
       },
       capacityAvailable: {
-        type: DataTypes.ARRAY(DataTypes.STRING)
+        type: DataTypes.ARRAY(DataTypes.STRING),
       },
       capacity: {
         type: Sequelize.STRING,
@@ -65,7 +65,7 @@ module.exports = {
       createdAt: {
         allowNull: true,
         type: Sequelize.DATE,
-        defaultValue: Date.now()
+        defaultValue: Date.now(),
       },
       updatedAt: {
         allowNull: true,
@@ -75,8 +75,7 @@ module.exports = {
     });
   },
 
-  down: async (queryInterface) => {
+  down: async(queryInterface) => {
     await queryInterface.dropTable('phones');
   },
 };
-

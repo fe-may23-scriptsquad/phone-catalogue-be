@@ -1,7 +1,11 @@
 {
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
-  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "@mate-academy/eslint-config"
+  ],
   "env": {
     "browser": true,
     "es2021": true,
