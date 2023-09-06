@@ -181,11 +181,11 @@ app.get('/next', async(req, res) => {
   }
 });
 
-app.get('/details/:productId', async(req, res) => {
-  const { productId } = req.params;
+app.get('/details/:itemId', async(req, res) => {
+  const { itemId } = req.params;
 
   try {
-    const phoneById = await Phones.findByPk(productId);
+    const phoneById = await Phones.findByPk(itemId);
 
     res.status(200).json(phoneById);
   } catch (error) {
