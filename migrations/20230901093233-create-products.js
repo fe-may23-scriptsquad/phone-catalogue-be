@@ -15,7 +15,7 @@ module.exports = {
       category: {
         type: Sequelize.STRING,
       },
-      phoneId: {
+      productId: {
         type: Sequelize.STRING,
         allowNull: false,
         references: {

@@ -10,7 +10,7 @@ Product.init({
     autoIncrement: true,
   },
   category: DataTypes.STRING,
-  phoneId: DataTypes.STRING,
+  productId: DataTypes.STRING,
   itemId: DataTypes.STRING,
   name: DataTypes.STRING,
   fullPrice: DataTypes.INTEGER,

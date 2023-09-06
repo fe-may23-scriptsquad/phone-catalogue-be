@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "apple-ipad-air-4th-gen-64gb-blue",
+    "namespaceId": "apple-ipad-air-4th-gen",
+    "name": "Apple iPad Air (4th Gen) 64GB Blue",
+    "capacityAvailable": ["64GB", "256GB"],
+    "capacity": "64GB",
+    "priceRegular": 599,
+    "priceDiscount": 549,
+    "colorsAvailable": ["blue", "pink", "purple", "starlight"],
+    "color": "blue",
+    "images": [
+      "img/tablets/apple-ipad-air-4th-gen/blue/00.webp",
+      "img/tablets/apple-ipad-air-4th-gen/blue/01.webp",
+      "img/tablets/apple-ipad-air-4th-gen/blue/02.webp",
+      "img/tablets/apple-ipad-air-4th-gen/blue/03.webp"
+    ],
+    "description": [
+      {
+        "title": "Stunning Design",
+        "text": [
+          "The Apple iPad Air (4th Gen) in Starlight boasts a stunning design that's both elegant and lightweight.",
+          "With a 10.9-inch Retina Display, it offers a vibrant and immersive viewing experience."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the Apple A14 Bionic chip and 3GB of RAM, this iPad delivers excellent performance for all your tasks.",
+          "The 64GB of storage provides ample space for your apps, photos, and more."
+        ]
+      },
+      {
+        "title": "Capture Memories",
+        "text": [
+          "Equipped with a high-quality camera, you can capture stunning photos and videos.",
+          "Stay connected with FaceTime, and take advantage of the Apple Pencil for creative tasks."
+        ]
+      }
+    ],
+    "screen": "10.9' Retina Display",
+    "resolution": "2360x1640",
+    "processor": "Apple A14 Bionic",
+    "ram": "3GB",
+    "camera": "12MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2020
+  },
+  {
+    "id": "apple-ipad-pro-11-5th-gen-256gb-space-gray",
+    "namespaceId": "apple-ipad-pro-11-5th-gen",
+    "name": "Apple iPad Pro (11-inch, 5th Gen) 512GB Space Gray",
+    "capacityAvailable": ["256GB", "512GB"],
+    "capacity": "512GB",
+    "priceRegular": 999,
+    "priceDiscount": 899,
+    "colorsAvailable": ["space-gray", "white"],
+    "color": "space-gray",
+    "images": [
+      "img/tablets/apple-ipad-pro-11-5th-gen/space-gray/00.webp",
+      "img/tablets/apple-ipad-pro-11-5th-gen/space-gray/01.webp",
+      "img/tablets/apple-ipad-pro-11-5th-gen/space-gray/02.webp"
+    ],
+    "description": [
+      {
+        "title": "Next-Level Productivity",
+        "text": [
+          "Experience unmatched productivity with the iPad Pro (5th Gen).",
+          "With its powerful performance, stunning Liquid Retina display, and sleek design, it's the perfect tool for professionals and creatives."
+        ]
+      },
+      {
+        "title": "Liquid Retina Display",
+        "text": [
+          "Enjoy the brilliant 11-inch Liquid Retina display with ProMotion technology, delivering smooth scrolling and responsive touch.",
+          "The iPad Pro's display provides incredible color accuracy and clarity for your content."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the latest Apple M1 chip, this iPad Pro offers unparalleled performance and efficiency.",
+          "With 256GB of storage, you'll have ample space for all your files, apps, and creative projects."
+        ]
+      }
+    ],
+    "screen": "11' Liquid Retina Display",
+    "resolution": "2388x1668",
+    "processor": "Apple M1",
+    "ram": "8GB",
+    "camera": "12MP Wide + 10MP Ultra-Wide",
+    "cell": ["Wi-Fi", "5G"],
+    "year": 2021
+  },
+  {
+    "id": "apple-ipad-mini-6th-gen-128gb-space-gray",
+    "namespaceId": "apple-ipad-mini-6th-gen",
+    "name": "Apple iPad Mini (6th Gen) 128GB Space Gray",
+    "capacityAvailable": ["64GB", "128GB"],
+    "capacity": "128GB",
+    "priceRegular": 499,
+    "priceDiscount": 449,
+    "colorsAvailable": ["space gray", "pink"],
+    "color": "space-gray",
+    "images": [
+      "img/tablets/apple-ipad-mini-6th-gen/space-gray/00.webp",
+      "img/tablets/apple-ipad-mini-6th-gen/space-gray/01.webp"
+    ],
+    "description": [
+      {
+        "title": "Compact and Powerful",
+        "text": [
+          "The 6th Gen iPad Mini delivers big performance in a compact design.",
+          "With a stunning Liquid Retina display, powerful A15 Bionic chip, and versatile capabilities, it's perfect for on-the-go creativity and productivity."
+        ]
+      },
+      {
+        "title": "Liquid Retina Display",
+        "text": [
+          "The iPad Mini features a beautiful Liquid Retina display with True Tone and wide color support.",
+          "Whether you're reading, watching, or creating, the visuals are stunningly detailed and vibrant."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A15 Bionic chip, this iPad Mini offers blazing-fast performance for apps, games, and multitasking.",
+          "With 128GB of storage, you have plenty of space for your apps, photos, and videos."
+        ]
+      }
+    ],
+    "screen": "8.3' Liquid Retina Display",
+    "resolution": "2266x1488",
+    "processor": "Apple A15 Bionic",
+    "ram": "4GB",
+    "camera": "12MP Wide + 12MP Ultra-Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2021
+  },
+  {
+    "id": "apple-ipad-pro-12-9-4th-gen-512gb-silver",
+    "namespaceId": "apple-ipad-pro-12-9-4th-gen",
+    "name": "Apple iPad Pro (12.9-inch, 4th Gen) 512GB Silver",
+    "capacityAvailable": ["512GB"],
+    "capacity": "512GB",
+    "priceRegular": 1299,
+    "priceDiscount": 1199,
+    "colorsAvailable": ["silver", "space-gray"],
+    "color": "silver",
+    "images": [
+      "img/tablets/apple-ipad-pro-12-9-4th-gen/silver/00.webp",
+      "img/tablets/apple-ipad-pro-12-9-4th-gen/silver/01.webp",
+      "img/tablets/apple-ipad-pro-12-9-4th-gen/silver/02.webp"
+    ],
+    "description": [
+      {
+        "title": "The Ultimate Creativity Tool",
+        "text": [
+          "The iPad Pro (4th Gen) is the ultimate creative powerhouse with a massive 12.9-inch Liquid Retina XDR display and incredible performance.",
+          "Whether you're a designer, artist, or professional, this iPad Pro will redefine your creative workflow."
+        ]
+      },
+      {
+        "title": "Liquid Retina XDR Display",
+        "text": [
+          "Experience the stunning Liquid Retina XDR display with ProMotion and True Tone technology.",
+          "With a billion colors and HDR support, your content will come to life in ways you've never seen before."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A12Z Bionic chip, this iPad Pro offers desktop-class performance for demanding tasks.",
+          "With a massive 512GB of storage, you'll have ample space for all your creative projects."
+        ]
+      }
+    ],
+    "screen": "12.9' Liquid Retina XDR Display",
+    "resolution": "2732x2048",
+    "processor": "Apple A12Z Bionic",
+    "ram": "6GB",
+    "camera": "12MP Wide + 10MP Ultra-Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2020
+  },
+  {
+    "id": "apple-ipad-9th-gen-32gb-space-gray",
+    "namespaceId": "apple-ipad-9th-gen",
+    "name": "Apple iPad (9th Gen) 32GB Space Gray",
+    "capacityAvailable": ["32GB", "128GB"],
+    "capacity": "32GB",
+    "priceRegular": 329,
+    "priceDiscount": 299,
+    "colorsAvailable": ["space gray", "silver"],
+    "color": "space-gray",
+    "images": [
+      "img/tablets/apple-ipad-9th-gen/space-gray/00.webp",
+      "img/tablets/apple-ipad-9th-gen/space-gray/01.webp",
+      "img/tablets/apple-ipad-9th-gen/space-gray/02.webp"
+    ],
+    "description": [
+      {
+        "title": "Your Everyday Companion",
+        "text": [
+          "The 9th Gen iPad is the perfect companion for your daily tasks and entertainment.",
+          "With a powerful A13 Bionic chip, it offers great performance for all your apps and activities."
+        ]
+      },
+      {
+        "title": "Retina Display",
+        "text": [
+          "Enjoy your content on the 10.2-inch Retina display with True Tone.",
+          "Whether you're working, browsing, or streaming, the visuals are clear and vibrant."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A13 Bionic chip, this iPad delivers fast and smooth performance for multitasking and gaming.",
+          "With 32GB of storage, you have plenty of space for your apps and media."
+        ]
+      }
+    ],
+    "screen": "10.2' Retina Display",
+    "resolution": "2160x1620",
+    "processor": "Apple A13 Bionic",
+    "ram": "3GB",
+    "camera": "8MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2021
+  },
+  {
+    "id": "apple-ipad-pro-11-6th-gen-1tb-silver",
+    "namespaceId": "apple-ipad-pro-11-6th-gen",
+    "name": "Apple iPad Pro (11-inch, 6th Gen) 1TB Silver",
+    "capacityAvailable": ["128GB", "1TB"],
+    "capacity": "1TB",
+    "priceRegular": 1499,
+    "priceDiscount": 1399,
+    "colorsAvailable": ["silver", "space-gray"],
+    "color": "silver",
+    "images": [
+      "img/tablets/apple-ipad-pro-11-6th-gen/silver/00.webp",
+      "img/tablets/apple-ipad-pro-11-6th-gen/silver/01.webp",
+      "img/tablets/apple-ipad-pro-11-6th-gen/silver/02.webp"
+    ],
+    "description": [
+      {
+        "title": "Next-Level Productivity",
+        "text": [
+          "The 6th Gen iPad Pro delivers unparalleled productivity in a sleek and compact design.",
+          "With a stunning Liquid Retina XDR display and blazing-fast performance, it's perfect for professionals and creatives."
+        ]
+      },
+      {
+        "title": "Liquid Retina XDR Display",
+        "text": [
+          "Experience the brilliant 11-inch Liquid Retina XDR display with ProMotion and True Tone technology.",
+          "With HDR support and a billion colors, your content will come to life in vivid detail."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A15 Bionic chip, this iPad Pro offers desktop-class performance for demanding tasks.",
+          "With 1TB of storage, you'll have ample space for all your files, projects, and creative work."
+        ]
+      }
+    ],
+    "screen": "11' Liquid Retina XDR Display",
+    "resolution": "2388x1668",
+    "processor": "Apple A15 Bionic",
+    "ram": "8GB",
+    "camera": "12MP Wide + 10MP Ultra-Wide",
+    "cell": ["Wi-Fi", "5G"],
+    "year": 2021
+  },
+  {
+    "id": "apple-ipad-mini-5th-gen-64gb-pink",
+    "namespaceId": "apple-ipad-mini-5th-gen",
+    "name": "Apple iPad Mini (5th Gen) 64GB Pink",
+    "capacityAvailable": ["64GB", "256GB"],
+    "capacity": "64GB",
+    "priceRegular": 549,
+    "priceDiscount": 499,
+    "colorsAvailable": ["space-gray", "starlight", "purple", "pink"],
+    "color": "pink",
+    "images": [
+      "img/tablets/apple-ipad-mini-5th-gen/pink/00.webp",
+      "img/tablets/apple-ipad-mini-5th-gen/pink/01.webp"
+    ],
+    "description": [
+      {
+        "title": "Compact and Powerful",
+        "text": [
+          "The 5th Gen iPad Mini packs powerful performance into a compact design.",
+          "With a 7.9-inch Retina display and the A12 Bionic chip, it's perfect for on-the-go productivity and entertainment."
+        ]
+      },
+      {
+        "title": "Retina Display",
+        "text": [
+          "Enjoy your content on the 7.9-inch Retina display with True Tone.",
+          "Whether you're reading, streaming, or gaming, the visuals are clear and vibrant."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A12 Bionic chip, this iPad Mini delivers smooth performance for apps and games.",
+          "With 256GB of storage, you have ample space for your apps, photos, and videos."
+        ]
+      }
+    ],
+    "screen": "7.9' Retina Display",
+    "resolution": "2048x1536",
+    "processor": "Apple A12 Bionic",
+    "ram": "3GB",
+    "camera": "8MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2019
+  },
+  {
+    "id": "apple-ipad-air-4th-gen-256gb-pink",
+    "namespaceId": "apple-ipad-air-4th-gen",
+    "name": "Apple iPad Air (4th Gen) 256GB Pink",
+    "capacityAvailable": ["64GB", "256GB"],
+    "capacity": "256GB",
+    "priceRegular": 749,
+    "priceDiscount": 699,
+    "colorsAvailable": ["blue", "pink", "purple", "starlight"],
+    "color": "pink",
+    "images": [
+      "img/tablets/apple-ipad-air-4th-gen/pink/00.webp",
+      "img/tablets/apple-ipad-air-4th-gen/pink/01.webp",
+      "img/tablets/apple-ipad-air-4th-gen/pink/02.webp",
+      "img/tablets/apple-ipad-air-4th-gen/pink/03.webp"
+    ],
+    "description": [
+      {
+        "title": "Colorful and Capable",
+        "text": [
+          "The 4th Gen iPad Air combines style and performance in a sleek and colorful design.",
+          "With a 10.9-inch Liquid Retina display and the A14 Bionic chip, it's perfect for work and play."
+        ]
+      },
+      {
+        "title": "Liquid Retina Display",
+        "text": [
+          "Experience the stunning 10.9-inch Liquid Retina display with P3 wide color and True Tone.",
+          "Whether you're editing photos or watching movies, the visuals are vibrant and true to life."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A14 Bionic chip, this iPad Air offers fast and efficient performance.",
+          "With 256GB of storage, you have plenty of space for your apps, projects, and creativity."
+        ]
+      }
+    ],
+    "screen": "10.9' Liquid Retina Display",
+    "resolution": "2360x1640",
+    "processor": "Apple A14 Bionic",
+    "ram": "4GB",
+    "camera": "12MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2020
+  },
+  {
+    "id": "apple-ipad-pro-12-9-5th-gen-2tb-silver",
+    "namespaceId": "apple-ipad-pro-12-9-5th-gen",
+    "name": "Apple iPad Pro (12.9-inch, 5th Gen) 2TB Silver",
+    "capacityAvailable": ["2TB"],
+    "capacity": "2TB",
+    "priceRegular": 2499,
+    "priceDiscount": 2399,
+    "colorsAvailable": ["space-gray", "silver"],
+    "color": "silver",
+    "images": [
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/silver/00.webp",
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/silver/01.webp",
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/silver/02.webp",
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/silver/03.webp"
+    ],
+    "description": [
+      {
+        "title": "The Ultimate Powerhouse",
+        "text": [
+          "The 5th Gen iPad Pro is the ultimate productivity and creativity powerhouse.",
+          "With a massive 12.9-inch Liquid Retina XDR display and the M1 chip, it redefines what you can do on an iPad."
+        ]
+      },
+      {
+        "title": "Liquid Retina XDR Display",
+        "text": [
+          "Experience the breathtaking 12.9-inch Liquid Retina XDR display with ProMotion and True Tone.",
+          "With HDR support and a stunning 2732x2048 resolution, it's a canvas for your creativity."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the Apple M1 chip, this iPad Pro offers desktop-class performance for demanding tasks.",
+          "With a massive 2TB of storage, you'll have ample space for your projects, files, and media."
+        ]
+      }
+    ],
+    "screen": "12.9' Liquid Retina XDR Display",
+    "resolution": "2732x2048",
+    "processor": "Apple M1",
+    "ram": "16GB",
+    "camera": "12MP Wide + 10MP Ultra-Wide",
+    "cell": ["Wi-Fi", "5G"],
+    "year": 2021
+  },
+  {
+    "id": "apple-ipad-10-2-7th-gen-128gb-silver",
+    "namespaceId": "apple-ipad-10-2-7th-gen",
+    "name": "Apple iPad (10.2-inch, 7th Gen) 128GB Silver",
+    "capacityAvailable": ["128GB"],
+    "capacity": "128GB",
+    "priceRegular": 429,
+    "priceDiscount": 399,
+    "colorsAvailable": ["silver", "space-gray"],
+    "color": "silver",
+    "images": [
+      "img/tablets/apple-ipad-10-2-7th-gen/silver/00.webp",
+      "img/tablets/apple-ipad-10-2-7th-gen/silver/01.webp"
+    ],
+    "description": [
+      {
+        "title": "Your Versatile Companion",
+        "text": [
+          "The 7th Gen iPad is your versatile companion for work and play.",
+          "With a 10.2-inch Retina display and the A10 Fusion chip, it's perfect for everyday tasks and entertainment."
+        ]
+      },
+      {
+        "title": "Retina Display",
+        "text": [
+          "Enjoy your content on the 10.2-inch Retina display with True Tone.",
+          "Whether you're working, browsing, or streaming, the visuals are clear and crisp."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A10 Fusion chip, this iPad delivers smooth performance for your apps and games.",
+          "With 128GB of storage, you have plenty of space for your apps and media."
+        ]
+      }
+    ],
+    "screen": "10.2' Retina Display",
+    "resolution": "2160x1620",
+    "processor": "Apple A10 Fusion",
+    "ram": "3GB",
+    "camera": "8MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2019
+  },
+  {
+    "id": "apple-ipad-pro-11-6th-gen-128gb-space-gray",
+    "namespaceId": "apple-ipad-pro-11-6th-gen",
+    "name": "Apple iPad Pro (11-inch, 6th Gen) 128GB Space Gray",
+    "capacityAvailable": ["128GB", "1TB"],
+    "capacity": "128GB",
+    "priceRegular": 799,
+    "priceDiscount": 749,
+    "colorsAvailable": ["space-gray", "silver"],
+    "color": "space-gray",
+    "images": [
+      "img/tablets/apple-ipad-pro-11-6th-gen/space-gray/00.webp",
+      "img/tablets/apple-ipad-pro-11-6th-gen/space-gray/01.webp",
+      "img/tablets/apple-ipad-pro-11-6th-gen/space-gray/02.webp"
+    ],
+    "description": [
+      {
+        "title": "Next-Level Productivity",
+        "text": [
+          "The 6th Gen iPad Pro delivers unparalleled productivity in a sleek and compact design.",
+          "With a stunning Liquid Retina XDR display and blazing-fast performance, it's perfect for professionals and creatives."
+        ]
+      },
+      {
+        "title": "Liquid Retina XDR Display",
+        "text": [
+          "Experience the brilliant 11-inch Liquid Retina XDR display with ProMotion and True Tone technology.",
+          "With HDR support and a billion colors, your content will come to life in vivid detail."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A15 Bionic chip, this iPad Pro offers desktop-class performance for demanding tasks.",
+          "With 128GB of storage, you'll have ample space for all your files, projects, and creative work."
+        ]
+      }
+    ],
+    "screen": "11' Liquid Retina XDR Display",
+    "resolution": "2388x1668",
+    "processor": "Apple A15 Bionic",
+    "ram": "8GB",
+    "camera": "12MP Wide + 10MP Ultra-Wide",
+    "cell": ["Wi-Fi", "5G"],
+    "year": 2021
+  },
+  {
+    "id": "apple-ipad-air-4th-gen-256gb-purple",
+    "namespaceId": "apple-ipad-air-4th-gen",
+    "name": "Apple iPad Air (4th Gen) 256GB Purple",
+    "capacityAvailable": ["64GB", "256GB"],
+    "capacity": "256GB",
+    "priceRegular": 749,
+    "priceDiscount": 699,
+    "colorsAvailable": ["blue", "pink", "purple", "starlight"],
+    "color": "purple",
+    "images": [
+      "img/tablets/apple-ipad-air-4th-gen/purple/00.webp",
+      "img/tablets/apple-ipad-air-4th-gen/purple/01.webp",
+      "img/tablets/apple-ipad-air-4th-gen/purple/02.webp",
+      "img/tablets/apple-ipad-air-4th-gen/purple/03.webp"
+    ],
+    "description": [
+      {
+        "title": "Colorful and Capable",
+        "text": [
+          "The 4th Gen iPad Air combines style and performance in a sleek and colorful design.",
+          "With a 10.9-inch Liquid Retina display and the A14 Bionic chip, it's perfect for work and play."
+        ]
+      },
+      {
+        "title": "Liquid Retina Display",
+        "text": [
+          "Experience the stunning 10.9-inch Liquid Retina display with P3 wide color and True Tone.",
+          "Whether you're editing photos or watching movies, the visuals are vibrant and true to life."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A14 Bionic chip, this iPad Air offers fast and efficient performance.",
+          "With 256GB of storage, you have plenty of space for your apps, projects, and creativity."
+        ]
+      }
+    ],
+    "screen": "10.9' Liquid Retina Display",
+    "resolution": "2360x1640",
+    "processor": "Apple A14 Bionic",
+    "ram": "4GB",
+    "camera": "12MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2020
+  },
+  {
+    "id": "apple-ipad-mini-6th-gen-128gb-pink",
+    "namespaceId": "apple-ipad-mini-6th-gen",
+    "name": "Apple iPad Mini (6th Gen) 128GB Pink",
+    "capacityAvailable": ["128GB"],
+    "capacity": "128GB",
+    "priceRegular": 399,
+    "priceDiscount": 349,
+    "colorsAvailable": ["pink", "space-gray"],
+    "color": "pink",
+    "images": [
+      "img/tablets/apple-ipad-mini-6th-gen/pink/00.webp",
+      "img/tablets/apple-ipad-mini-6th-gen/pink/01.webp"
+    ],
+    "description": [
+      {
+        "title": "Compact and Powerful",
+        "text": [
+          "The 6th Gen iPad Mini is a compact powerhouse that fits in your hand.",
+          "With an 8.3-inch Liquid Retina display and the A15 Bionic chip, it's ideal for on-the-go productivity and entertainment."
+        ]
+      },
+      {
+        "title": "Liquid Retina Display",
+        "text": [
+          "Enjoy the sharp and colorful 8.3-inch Liquid Retina display with True Tone.",
+          "Whether you're reading, gaming, or multitasking, the Mini delivers an immersive experience."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A15 Bionic chip, this iPad Mini offers fast performance for all your tasks.",
+          "With 128GB of storage, you can store your apps, games, and content without worry."
+        ]
+      }
+    ],
+    "screen": "8.3' Liquid Retina Display",
+    "resolution": "2266x1488",
+    "processor": "Apple A15 Bionic",
+    "ram": "4GB",
+    "camera": "12MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2021
+  },
+  {
+    "id": "apple-ipad-pro-12-9-4th-gen-512gb-space-gray",
+    "namespaceId": "apple-ipad-pro-12-9-4th-gen",
+    "name": "Apple iPad Pro (12.9-inch, 4th Gen) 512GB Space Gray",
+    "capacityAvailable": ["512GB"],
+    "capacity": "512GB",
+    "priceRegular": 1499,
+    "priceDiscount": 1399,
+    "colorsAvailable": ["space-gray", "silver"],
+    "color": "space-gray",
+    "images": [
+      "img/tablets/apple-ipad-pro-12-9-4th-gen/space-gray/00.webp",
+      "img/tablets/apple-ipad-pro-12-9-4th-gen/space-gray/01.webp",
+      "img/tablets/apple-ipad-pro-12-9-4th-gen/space-gray/02.webp"
+    ],
+    "description": [
+      {
+        "title": "Pro-Level Performance",
+        "text": [
+          "The 4th Gen iPad Pro offers pro-level performance and versatility in a large and immersive form factor.",
+          "With a 12.9-inch Liquid Retina XDR display and the A12Z Bionic chip, it's perfect for professionals and creatives."
+        ]
+      },
+      {
+        "title": "Liquid Retina XDR Display",
+        "text": [
+          "Experience the breathtaking 12.9-inch Liquid Retina XDR display with ProMotion and True Tone.",
+          "With HDR support and a stunning 2732x2048 resolution, it's a canvas for your creativity."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A12Z Bionic chip, this iPad Pro offers desktop-class performance for demanding tasks.",
+          "With 512GB of storage, you'll have ample space for your projects, files, and media."
+        ]
+      }
+    ],
+    "screen": "12.9' Liquid Retina XDR Display",
+    "resolution": "2732x2048",
+    "processor": "Apple A12Z Bionic",
+    "ram": "6GB",
+    "camera": "12MP Wide + 10MP Ultra-Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2020
+  },
+  {
+    "id": "apple-ipad-9th-gen-64gb-silver",
+    "namespaceId": "apple-ipad-9th-gen",
+    "name": "Apple iPad (9th Gen) 64GB Silver",
+    "capacityAvailable": ["32GB", "64GB"],
+    "capacity": "64GB",
+    "priceRegular": 399,
+    "priceDiscount": 349,
+    "colorsAvailable": ["silver", "space-gray"],
+    "color": "silver",
+    "images": [
+      "img/tablets/apple-ipad-9th-gen/silver/00.webp",
+      "img/tablets/apple-ipad-9th-gen/silver/01.webp",
+      "img/tablets/apple-ipad-9th-gen/silver/02.webp"
+    ],
+    "description": [
+      {
+        "title": "Your Versatile Companion",
+        "text": [
+          "The 9th Gen iPad is your versatile companion for work and play.",
+          "With a 10.2-inch Retina display and the A13 Bionic chip, it's perfect for everyday tasks and entertainment."
+        ]
+      },
+      {
+        "title": "Retina Display",
+        "text": [
+          "Enjoy your content on the 10.2-inch Retina display with True Tone.",
+          "Whether you're working, browsing, or streaming, the visuals are clear and crisp."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A13 Bionic chip, this iPad delivers smooth performance for your apps and games.",
+          "With 64GB of storage, you have plenty of space for your apps and media."
+        ]
+      }
+    ],
+    "screen": "10.2' Retina Display",
+    "resolution": "2160x1620",
+    "processor": "Apple A13 Bionic",
+    "ram": "3GB",
+    "camera": "8MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2021
+  },
+  {
+    "id": "apple-ipad-pro-11-5th-gen-256gb-white",
+    "namespaceId": "apple-ipad-pro-11-5th-gen",
+    "name": "Apple iPad Pro (11-inch, 5th Gen) 256GB White",
+    "capacityAvailable": ["256GB", "512GB"],
+    "capacity": "256GB",
+    "priceRegular": 1299,
+    "priceDiscount": 1199,
+    "colorsAvailable": ["white", "space gray"],
+    "color": "white",
+    "images": [
+      "img/tablets/apple-ipad-pro-11-5th-gen/white/00.webp",
+      "img/tablets/apple-ipad-pro-11-5th-gen/white/01.webp",
+      "img/tablets/apple-ipad-pro-11-5th-gen/white/02.webp"
+    ],
+    "description": [
+      {
+        "title": "Professional Performance",
+        "text": [
+          "The 5th Gen iPad Pro offers professional-grade performance and versatility.",
+          "With an 11-inch Liquid Retina display and the A15 Bionic chip, it's ideal for professionals and creatives."
+        ]
+      },
+      {
+        "title": "Liquid Retina Display",
+        "text": [
+          "Experience the stunning 11-inch Liquid Retina display with ProMotion and True Tone technology.",
+          "With HDR support and vivid colors, your content will shine."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A15 Bionic chip, this iPad Pro delivers desktop-class performance for demanding tasks.",
+          "With 256GB of storage, you'll have space for all your projects and creativity."
+        ]
+      }
+    ],
+    "screen": "11' Liquid Retina Display",
+    "resolution": "2388x1668",
+    "processor": "Apple A15 Bionic",
+    "ram": "8GB",
+    "camera": "12MP Wide + 10MP Ultra-Wide",
+    "cell": ["Wi-Fi", "5G"],
+    "year": 2021
+  },
+  {
+    "id": "apple-ipad-mini-5th-gen-64gb-purple",
+    "namespaceId": "apple-ipad-mini-5th-gen",
+    "name": "Apple iPad Mini (5th Gen) 64GB Purple",
+    "capacityAvailable": ["64GB", "256GB"],
+    "capacity": "64GB",
+    "priceRegular": 399,
+    "priceDiscount": 349,
+    "colorsAvailable": ["pink", "purple", "space-gray", "starlight"],
+    "color": "purple",
+    "images": [
+      "img/tablets/apple-ipad-mini-5th-gen/purple/00.webp",
+      "img/tablets/apple-ipad-mini-5th-gen/purple/01.webp"
+    ],
+    "description": [
+      {
+        "title": "Mini Yet Mighty",
+        "text": [
+          "The 5th Gen iPad Mini packs a punch in a compact form factor.",
+          "With a 7.9-inch Retina display and the A12 Bionic chip, it's perfect for on-the-go productivity and entertainment."
+        ]
+      },
+      {
+        "title": "Retina Display",
+        "text": [
+          "Enjoy your content on the 7.9-inch Retina display with True Tone.",
+          "Whether you're reading, gaming, or multitasking, the Mini delivers sharp visuals."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A12 Bionic chip, this iPad Mini offers fast performance for your apps and games.",
+          "With 64GB of storage, you have space for your apps and media."
+        ]
+      }
+    ],
+    "screen": "7.9' Retina Display",
+    "resolution": "2048x1536",
+    "processor": "Apple A12 Bionic",
+    "ram": "3GB",
+    "camera": "8MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2019
+  },
+  {
+    "id": "apple-ipad-mini-5th-gen-256gb-space-gray",
+    "namespaceId": "apple-ipad-mini-5th-gen",
+    "name": "Apple iPad Mini (5th Gen) 256GB Space Gray",
+    "capacityAvailable": ["64GB", "256GB"],
+    "capacity": "256GB",
+    "priceRegular": 399,
+    "priceDiscount": 349,
+    "colorsAvailable": ["pink", "purple", "space-gray", "starlight"],
+    "color": "space-gray",
+    "images": [
+      "img/tablets/apple-ipad-mini-5th-gen/space-gray/00.webp",
+      "img/tablets/apple-ipad-mini-5th-gen/space-gray/01.webp"
+    ],
+    "description": [
+      {
+        "title": "Express Yourself",
+        "text": [
+          "The 5th Gen iPad Mini lets you express your style in vibrant purple.",
+          "With a 7.9-inch Retina display and the A12 Bionic chip, it's both stylish and powerful."
+        ]
+      },
+      {
+        "title": "Retina Display",
+        "text": [
+          "Enjoy your content on the 7.9-inch Retina display with True Tone.",
+          "Whether you're reading, gaming, or multitasking, the Mini delivers vivid visuals."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A12 Bionic chip, this iPad Mini offers fast performance for your apps and games.",
+          "With 64GB of storage, you have space for your apps and media."
+        ]
+      }
+    ],
+    "screen": "7.9' Retina Display",
+    "resolution": "2048x1536",
+    "processor": "Apple A12 Bionic",
+    "ram": "3GB",
+    "camera": "8MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2019
+  },
+  {
+    "id": "apple-ipad-mini-5th-gen-64gb-starlight",
+    "namespaceId": "apple-ipad-mini-5th-gen",
+    "name": "Apple iPad Mini (5th Gen) 64GB Starlight",
+    "capacityAvailable": ["64GB", "256GB"],
+    "capacity": "64GB",
+    "priceRegular": 399,
+    "priceDiscount": 349,
+    "colorsAvailable": ["pink", "purple", "space-gray", "starlight"],
+    "color": "starlight",
+    "images": [
+      "img/tablets/apple-ipad-mini-5th-gen/starlight/00.webp",
+      "img/tablets/apple-ipad-mini-5th-gen/starlight/01.webp"
+    ],
+    "description": [
+      {
+        "title": "Pretty in Pink",
+        "text": [
+          "The 5th Gen iPad Mini adds a pop of color with its pink variant.",
+          "With a 7.9-inch Retina display and the A12 Bionic chip, it's both stylish and capable."
+        ]
+      },
+      {
+        "title": "Retina Display",
+        "text": [
+          "Enjoy your content on the 7.9-inch Retina display with True Tone.",
+          "Whether you're reading, gaming, or multitasking, the Mini delivers vibrant visuals."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A12 Bionic chip, this iPad Mini offers fast performance for your apps and games.",
+          "With 64GB of storage, you have space for your apps and media."
+        ]
+      }
+    ],
+    "screen": "7.9' Retina Display",
+    "resolution": "2048x1536",
+    "processor": "Apple A12 Bionic",
+    "ram": "3GB",
+    "camera": "8MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2019
+  },
+  {
+    "id": "apple-ipad-air-4th-gen-64gb-starlight",
+    "namespaceId": "apple-ipad-air-4th-gen",
+    "name": "Apple iPad Air (4th Gen) 64GB Starlight",
+    "capacityAvailable": ["64GB", "256GB"],
+    "capacity": "64GB",
+    "priceRegular": 599,
+    "priceDiscount": 549,
+    "colorsAvailable": ["blue", "pink", "purple", "starlight"],
+    "color": "starlight",
+    "images": [
+      "img/tablets/apple-ipad-air-4th-gen/starlight/00.webp",
+      "img/tablets/apple-ipad-air-4th-gen/starlight/01.webp",
+      "img/tablets/apple-ipad-air-4th-gen/starlight/02.webp",
+      "img/tablets/apple-ipad-air-4th-gen/starlight/03.webp"
+    ],
+    "description": [
+      {
+        "title": "Elegant and Powerful",
+        "text": [
+          "The 4th Gen iPad Air combines elegance with power in a stunning blue finish.",
+          "With a 10.9-inch Liquid Retina display and the A14 Bionic chip, it's a versatile companion."
+        ]
+      },
+      {
+        "title": "Liquid Retina Display",
+        "text": [
+          "Experience the immersive 10.9-inch Liquid Retina display with True Tone.",
+          "Whether you're working or enjoying multimedia, the Air delivers exceptional visuals."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A14 Bionic chip, this iPad Air offers swift performance for all your tasks.",
+          "With 64GB of storage, you'll have space for your apps and creativity."
+        ]
+      }
+    ],
+    "screen": "10.9' Liquid Retina Display",
+    "resolution": "2360x1640",
+    "processor": "Apple A14 Bionic",
+    "ram": "4GB",
+    "camera": "12MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2020
+  },
+  {
+    "id": "apple-ipad-pro-12-9-5th-gen-2tb-space-gray",
+    "namespaceId": "apple-ipad-pro-12-9-5th-gen",
+    "name": "Apple iPad Pro (12.9-inch, 5th Gen) 2TB Space Gray",
+    "capacityAvailable": ["2TB"],
+    "capacity": "2TB",
+    "priceRegular": 2499,
+    "priceDiscount": 2399,
+    "colorsAvailable": ["silver", "space-gray"],
+    "color": "space-gray",
+    "images": [
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/space-gray/00.webp",
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/space-gray/01.webp",
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/space-gray/02.webp",
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/space-gray/03.webp"
+    ],
+    "description": [
+      {
+        "title": "Ultimate Performance",
+        "text": [
+          "The 5th Gen iPad Pro in stunning silver offers unmatched performance and creativity.",
+          "With a 12.9-inch Liquid Retina XDR display and the M1 chip, it's built for professionals."
+        ]
+      },
+      {
+        "title": "Liquid Retina XDR Display",
+        "text": [
+          "Experience the brilliance of the 12.9-inch Liquid Retina XDR display with ProMotion and True Tone.",
+          "With HDR support, it's a canvas for your most demanding projects."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the M1 chip, this iPad Pro delivers desktop-class performance for your creative tasks.",
+          "With a massive 2TB of storage, you'll never run out of space."
+        ]
+      }
+    ],
+    "screen": "12.9' Liquid Retina XDR Display",
+    "resolution": "2732x2048",
+    "processor": "Apple M1",
+    "ram": "16GB",
+    "camera": "12MP Wide + 10MP Ultra-Wide",
+    "cell": ["Wi-Fi", "5G"],
+    "year": 2021
+  },
+  {
+    "id": "apple-ipad-10-2-7th-gen-128gb-space-gray",
+    "namespaceId": "apple-ipad-10-2-7th-gen",
+    "name": "Apple iPad (10.2-inch, 7th Gen) 128GB Space Gray",
+    "capacityAvailable": ["128GB"],
+    "capacity": "128GB",
+    "priceRegular": 429,
+    "priceDiscount": 399,
+    "colorsAvailable": ["silver", "space-gray"],
+    "color": "space-gray",
+    "images": [
+      "img/tablets/apple-ipad-10-2-7th-gen/space-gray/00.webp",
+      "img/tablets/apple-ipad-10-2-7th-gen/space-gray/01.webp",
+      "img/tablets/apple-ipad-10-2-7th-gen/space-gray/02.webp",
+      "img/tablets/apple-ipad-10-2-7th-gen/space-gray/03.webp"
+    ],
+    "description": [
+      {
+        "title": "Everyday Companion",
+        "text": [
+          "The 7th Gen iPad is your perfect everyday companion in space gray.",
+          "With a 10.2-inch Retina display and the A10 Fusion chip, it's designed for versatility."
+        ]
+      },
+      {
+        "title": "Retina Display",
+        "text": [
+          "Enjoy your content on the 10.2-inch Retina display with True Tone.",
+          "Whether you're working or relaxing, the iPad delivers sharp visuals."
+        ]
+      },
+      {
+        "title": "Performance and Storage",
+        "text": [
+          "Powered by the A10 Fusion chip, this iPad offers smooth performance for your apps and tasks.",
+          "With 128GB of storage, you have room for your apps and more."
+        ]
+      }
+    ],
+    "screen": "10.2' Retina Display",
+    "resolution": "2160x1620",
+    "processor": "Apple A10 Fusion",
+    "ram": "3GB",
+    "camera": "8MP Wide",
+    "cell": ["Wi-Fi", "Cellular"],
+    "year": 2019
+  }
+]

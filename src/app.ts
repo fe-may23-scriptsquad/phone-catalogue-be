@@ -100,6 +100,27 @@ app.get('/products/hot-price', async(req, res) => {
   }
 });
 
+app.get('/products/quantity', async(_req, res) => {
+  try {
+    const [phonesCount, tabletsCount, accessoriesCount] = await Promise.all([
+      Product.count({ where: { category: 'phones' } }),
+      Product.count({ where: { category: 'tablets' } }),
+      Product.count({ where: { category: 'accessories' } }),
+    ]);
+
+    const categoriesLength = {
+      phone: phonesCount,
+      tablets: tabletsCount,
+      accesories: accessoriesCount,
+    };
+
+    res.status(200).json(categoriesLength);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Something went wrong' });
+  }
+});
+
 app.get('/products/:id', async(req, res) => {
   const { id } = req.params;
 
@@ -174,25 +195,4 @@ app.get('/phones/:id', async(req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
-});
-
-app.get('/products/quantity', async(_req, res) => {
-  try {
-    const [phonesCount, tabletsCount, accessoriesCount] = await Promise.all([
-      Product.count({ where: { category: 'phones' } }),
-      Product.count({ where: { category: 'tablets' } }),
-      Product.count({ where: { category: 'accessories' } }),
-    ]);
-
-    const categoriesLength = {
-      phone: phonesCount,
-      tablets: tabletsCount,
-      accesories: accessoriesCount,
-    };
-
-    res.status(200).json(categoriesLength);
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ error: 'Something went wrong' });
-  }
 });

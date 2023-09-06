@@ -57,10 +57,15 @@ module.exports = {
         type: Sequelize.STRING,
       },
       zoom: {
+        allowNull: true,
         type: Sequelize.STRING,
       },
       cell: {
         type: DataTypes.ARRAY(DataTypes.STRING),
+      },
+      year: {
+        allowNull: true,
+        type: Sequelize.INTEGER,
       },
       createdAt: {
         allowNull: true,

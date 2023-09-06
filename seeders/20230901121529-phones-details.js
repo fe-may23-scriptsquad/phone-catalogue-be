@@ -2,11 +2,19 @@
 'use strict';
 
 const phonesDetailsData = require('../src/api/phonesDetails.json');
+const tabletsDetailsData = require('../src/api/tabletsDetails.json');
 
-const data = phonesDetailsData.map(phone => (
+const tabletsData = tabletsDetailsData.map(tablet => ({
+  ...tablet,
+  description: JSON.stringify(tablet.description),
+}));
+
+const phonesData = phonesDetailsData.map(phone => (
   { ...phone,
     description: JSON.stringify(phone.description) }
 ));
+
+const data = [...phonesData, ...tabletsData];
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {

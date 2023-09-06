@@ -25,6 +25,7 @@ Phones.init({
   camera: DataTypes.STRING,
   zoom: DataTypes.STRING,
   cell: DataTypes.JSONB,
+  year: DataTypes.INTEGER,
 }, {
   sequelize,
   modelName: 'phones',
