@@ -10,7 +10,7 @@ Product.init({
     autoIncrement: true,
   },
   category: DataTypes.STRING,
-  phoneId: {
+  productId: {
     type: DataTypes.STRING,
     references: {
       model: 'phones',
