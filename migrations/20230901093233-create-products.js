@@ -36,22 +36,18 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       screen: {
-        allowNull: true,
         type: Sequelize.STRING,
       },
       capacity: {
-        allowNull: true,
         type: Sequelize.STRING,
       },
       color: {
         type: Sequelize.STRING,
       },
       ram: {
-        allowNull: true,
         type: Sequelize.STRING,
       },
       year: {
-        allowNull: true,
         type: Sequelize.INTEGER,
       },
       image: {

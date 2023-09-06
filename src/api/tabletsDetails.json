@@ -1,8 +1,8 @@
 [
   {
-    "id": "apple-ipad-air-4th-gen-blue",
+    "id": "apple-ipad-air-4th-gen-64gb-blue",
     "namespaceId": "apple-ipad-air-4th-gen",
-    "name": "Apple iPad Air (4th Gen) 64GB Starlight",
+    "name": "Apple iPad Air (4th Gen) 64GB Blue",
     "capacityAvailable": ["64GB", "256GB"],
     "capacity": "64GB",
     "priceRegular": 599,
@@ -47,7 +47,7 @@
     "year": 2020
   },
   {
-    "id": "apple-ipad-pro-11-5th-gen-space-gray",
+    "id": "apple-ipad-pro-11-5th-gen-256gb-space-gray",
     "namespaceId": "apple-ipad-pro-11-5th-gen",
     "name": "Apple iPad Pro (11-inch, 5th Gen) 512GB Space Gray",
     "capacityAvailable": ["256GB", "512GB"],
@@ -93,7 +93,7 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-mini-6th-gen-space-gray",
+    "id": "apple-ipad-mini-6th-gen-128gb-space-gray",
     "namespaceId": "apple-ipad-mini-6th-gen",
     "name": "Apple iPad Mini (6th Gen) 128GB Space Gray",
     "capacityAvailable": ["64GB", "128GB"],
@@ -138,7 +138,7 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-pro-12-9-4th-gen-silver",
+    "id": "apple-ipad-pro-12-9-4th-gen-512gb-silver",
     "namespaceId": "apple-ipad-pro-12-9-4th-gen",
     "name": "Apple iPad Pro (12.9-inch, 4th Gen) 512GB Silver",
     "capacityAvailable": ["512GB"],
@@ -184,7 +184,7 @@
     "year": 2020
   },
   {
-    "id": "apple-ipad-9th-gen-space-gray",
+    "id": "apple-ipad-9th-gen-32gb-space-gray",
     "namespaceId": "apple-ipad-9th-gen",
     "name": "Apple iPad (9th Gen) 32GB Space Gray",
     "capacityAvailable": ["32GB", "128GB"],
@@ -230,7 +230,7 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-pro-11-6th-gen-silver",
+    "id": "apple-ipad-pro-11-6th-gen-1tb-silver",
     "namespaceId": "apple-ipad-pro-11-6th-gen",
     "name": "Apple iPad Pro (11-inch, 6th Gen) 1TB Silver",
     "capacityAvailable": ["128GB", "1TB"],
@@ -276,11 +276,11 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-mini-5th-gen-pink",
+    "id": "apple-ipad-mini-5th-gen-64gb-pink",
     "namespaceId": "apple-ipad-mini-5th-gen",
-    "name": "Apple iPad Mini (5th Gen) 256GB Pink",
+    "name": "Apple iPad Mini (5th Gen) 64GB Pink",
     "capacityAvailable": ["64GB", "256GB"],
-    "capacity": "256GB",
+    "capacity": "64GB",
     "priceRegular": 549,
     "priceDiscount": 499,
     "colorsAvailable": ["space-gray", "starlight", "purple", "pink"],
@@ -321,7 +321,7 @@
     "year": 2019
   },
   {
-    "id": "apple-ipad-air-4th-gen-pink",
+    "id": "apple-ipad-air-4th-gen-256gb-pink",
     "namespaceId": "apple-ipad-air-4th-gen",
     "name": "Apple iPad Air (4th Gen) 256GB Pink",
     "capacityAvailable": ["64GB", "256GB"],
@@ -368,7 +368,7 @@
     "year": 2020
   },
   {
-    "id": "apple-ipad-pro-12-9-5th-gen-silver",
+    "id": "apple-ipad-pro-12-9-5th-gen-2tb-silver",
     "namespaceId": "apple-ipad-pro-12-9-5th-gen",
     "name": "Apple iPad Pro (12.9-inch, 5th Gen) 2TB Silver",
     "capacityAvailable": ["2TB"],
@@ -415,7 +415,7 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-10-2-7th-gen-silver",
+    "id": "apple-ipad-10-2-7th-gen-128gb-silver",
     "namespaceId": "apple-ipad-10-2-7th-gen",
     "name": "Apple iPad (10.2-inch, 7th Gen) 128GB Silver",
     "capacityAvailable": ["128GB"],
@@ -460,7 +460,7 @@
     "year": 2019
   },
   {
-    "id": "apple-ipad-pro-11-6th-gen-space-gray",
+    "id": "apple-ipad-pro-11-6th-gen-128gb-space-gray",
     "namespaceId": "apple-ipad-pro-11-6th-gen",
     "name": "Apple iPad Pro (11-inch, 6th Gen) 128GB Space Gray",
     "capacityAvailable": ["128GB", "1TB"],
@@ -506,7 +506,7 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-air-4th-gen-purple",
+    "id": "apple-ipad-air-4th-gen-256gb-purple",
     "namespaceId": "apple-ipad-air-4th-gen",
     "name": "Apple iPad Air (4th Gen) 256GB Purple",
     "capacityAvailable": ["64GB", "256GB"],
@@ -553,7 +553,7 @@
     "year": 2020
   },
   {
-    "id": "apple-ipad-mini-6th-gen-pink",
+    "id": "apple-ipad-mini-6th-gen-128gb-pink",
     "namespaceId": "apple-ipad-mini-6th-gen",
     "name": "Apple iPad Mini (6th Gen) 128GB Pink",
     "capacityAvailable": ["128GB"],
@@ -598,7 +598,7 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-pro-12-9-4th-gen-space-gray",
+    "id": "apple-ipad-pro-12-9-4th-gen-512gb-space-gray",
     "namespaceId": "apple-ipad-pro-12-9-4th-gen",
     "name": "Apple iPad Pro (12.9-inch, 4th Gen) 512GB Space Gray",
     "capacityAvailable": ["512GB"],
@@ -644,7 +644,7 @@
     "year": 2020
   },
   {
-    "id": "apple-ipad-9th-gen-silver",
+    "id": "apple-ipad-9th-gen-64gb-silver",
     "namespaceId": "apple-ipad-9th-gen",
     "name": "Apple iPad (9th Gen) 64GB Silver",
     "capacityAvailable": ["32GB", "64GB"],
@@ -690,7 +690,7 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-pro-11-5th-gen-white",
+    "id": "apple-ipad-pro-11-5th-gen-256gb-white",
     "namespaceId": "apple-ipad-pro-11-5th-gen",
     "name": "Apple iPad Pro (11-inch, 5th Gen) 256GB White",
     "capacityAvailable": ["256GB", "512GB"],
@@ -736,7 +736,7 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-mini-5th-gen-purple",
+    "id": "apple-ipad-mini-5th-gen-64gb-purple",
     "namespaceId": "apple-ipad-mini-5th-gen",
     "name": "Apple iPad Mini (5th Gen) 64GB Purple",
     "capacityAvailable": ["64GB", "256GB"],
@@ -781,11 +781,11 @@
     "year": 2019
   },
   {
-    "id": "apple-ipad-mini-5th-gen-space-gray",
+    "id": "apple-ipad-mini-5th-gen-256gb-space-gray",
     "namespaceId": "apple-ipad-mini-5th-gen",
-    "name": "Apple iPad Mini (5th Gen) 64GB Space Gray",
+    "name": "Apple iPad Mini (5th Gen) 256GB Space Gray",
     "capacityAvailable": ["64GB", "256GB"],
-    "capacity": "64GB",
+    "capacity": "256GB",
     "priceRegular": 399,
     "priceDiscount": 349,
     "colorsAvailable": ["pink", "purple", "space-gray", "starlight"],
@@ -826,7 +826,7 @@
     "year": 2019
   },
   {
-    "id": "apple-ipad-mini-5th-gen-starlight",
+    "id": "apple-ipad-mini-5th-gen-64gb-starlight",
     "namespaceId": "apple-ipad-mini-5th-gen",
     "name": "Apple iPad Mini (5th Gen) 64GB Starlight",
     "capacityAvailable": ["64GB", "256GB"],
@@ -871,7 +871,7 @@
     "year": 2019
   },
   {
-    "id": "apple-ipad-air-4th-gen-starlight",
+    "id": "apple-ipad-air-4th-gen-64gb-starlight",
     "namespaceId": "apple-ipad-air-4th-gen",
     "name": "Apple iPad Air (4th Gen) 64GB Starlight",
     "capacityAvailable": ["64GB", "256GB"],
@@ -918,7 +918,7 @@
     "year": 2020
   },
   {
-    "id": "apple-ipad-pro-12-9-5th-gen-space-gray",
+    "id": "apple-ipad-pro-12-9-5th-gen-2tb-space-gray",
     "namespaceId": "apple-ipad-pro-12-9-5th-gen",
     "name": "Apple iPad Pro (12.9-inch, 5th Gen) 2TB Space Gray",
     "capacityAvailable": ["2TB"],
@@ -965,7 +965,7 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-10-2-7th-gen-space-gray",
+    "id": "apple-ipad-10-2-7th-gen-128gb-space-gray",
     "namespaceId": "apple-ipad-10-2-7th-gen",
     "name": "Apple iPad (10.2-inch, 7th Gen) 128GB Space Gray",
     "capacityAvailable": ["128GB"],
