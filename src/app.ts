@@ -9,6 +9,7 @@ import { getAll } from './utils/getAllProducts';
 import Product from './model/products';
 import { getAllPhones } from './utils/getAllPhones';
 import Phones from './model/phones';
+import { Op } from 'sequelize';
 
 dotenv.config();
 
@@ -21,7 +22,7 @@ app.use(express.static('public'));
 
 sequelize.authenticate()
   .then(() => {
-    console.log('Connected to PostgreSQL database');
+    console.log('Connected to PostgresSQL database');
   })
   .catch((error) => {
     console.error('Unable to connect to the database:', error);
@@ -111,7 +112,7 @@ app.get('/products/quantity', async(_req, res) => {
     const categoriesLength = {
       phone: phonesCount,
       tablets: tabletsCount,
-      accesories: accessoriesCount,
+      accessories: accessoriesCount,
     };
 
     res.status(200).json(categoriesLength);
@@ -190,6 +191,31 @@ app.get('/phones/:id', async(req, res) => {
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Something went wrong' });
+  }
+});
+
+app.post('/getProductsByIds', async(req, res) => {
+  const { itemIds } = req.body;
+
+  if (!itemIds || !Array.isArray(itemIds)) {
+    return res.status(400).json({ error: 'empty ids' });
+  }
+
+  console.log(itemIds);
+
+  try {
+    const products = await Product.findAll({
+      where: {
+        productId: {
+          [Op.in]: itemIds,
+        },
+      },
+    });
+
+    res.json(products);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'fatal error' });
   }
 });
 
