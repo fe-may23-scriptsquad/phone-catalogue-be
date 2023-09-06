@@ -110,7 +110,7 @@ app.get('/products/quantity', async(_req, res) => {
     ]);
 
     const categoriesLength = {
-      phone: phonesCount,
+      phones: phonesCount,
       tablets: tabletsCount,
       accessories: accessoriesCount,
     };
@@ -181,11 +181,11 @@ app.get('/next', async(req, res) => {
   }
 });
 
-app.get('/phones/:id', async(req, res) => {
-  const { id } = req.params;
+app.get('/phones/:productId', async(req, res) => {
+  const { productId } = req.params;
 
   try {
-    const phoneById = await Phones.findByPk(id);
+    const phoneById = await Phones.findByPk(productId);
 
     res.status(200).json(phoneById);
   } catch (error) {
