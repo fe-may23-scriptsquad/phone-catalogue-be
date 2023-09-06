@@ -135,7 +135,7 @@ app.get('/products/:id', async(req, res) => {
   }
 });
 
-app.get('/phones', async(req: Request, res: Response) => {
+app.get('/details', async(req: Request, res: Response) => {
   let page = 1;
 
   if (typeof req.query.page === 'string') {
@@ -181,7 +181,7 @@ app.get('/next', async(req, res) => {
   }
 });
 
-app.get('/phones/:productId', async(req, res) => {
+app.get('/details/:productId', async(req, res) => {
   const { productId } = req.params;
 
   try {
