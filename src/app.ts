@@ -52,7 +52,10 @@ app.get('/products', async(req: Request, res: Response) => {
   const orderIn = req.query.orderIn || 'DESC';
 
   const orderBy = sortBy === 'discount'
-    ? sequelize.literal('("fullPrice" - price) DESC')
+    ? [
+      [sequelize.literal('("fullPrice" - price) DESC')],
+      ['id', 'ASC'],
+    ]
     : [
       [sortBy, orderIn],
       ['id', 'ASC'],
