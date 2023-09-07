@@ -49,9 +49,9 @@
   {
     "id": "apple-ipad-pro-11-5th-gen-256gb-spacegray",
     "namespaceId": "apple-ipad-pro-11-5th-gen",
-    "name": "Apple iPad Pro (11-inch, 5th Gen) 512GB Space Gray",
+    "name": "Apple iPad Pro (11-inch, 5th Gen) 256GB Space Gray",
     "capacityAvailable": ["256GB"],
-    "capacity": "512GB",
+    "capacity": "256GB",
     "priceRegular": 999,
     "priceDiscount": 899,
     "colorsAvailable": ["spacegray", "white"],
@@ -191,7 +191,7 @@
     "capacity": "256GB",
     "priceRegular": 329,
     "priceDiscount": 299,
-    "colorsAvailable": ["spacegray", "silver"],
+    "colorsAvailable": ["silver", "spacegray"],
     "color": "spacegray",
     "images": [
       "img/tablets/apple-ipad-9th-gen/spacegray/00.webp",
@@ -467,7 +467,7 @@
     "capacity": "1TB",
     "priceRegular": 799,
     "priceDiscount": 749,
-    "colorsAvailable": ["spacegray", "silver"],
+    "colorsAvailable": ["silver", "spacegray"],
     "color": "spacegray",
     "images": [
       "img/tablets/apple-ipad-pro-11-6th-gen/spacegray/00.webp",
@@ -560,7 +560,7 @@
     "capacity": "128GB",
     "priceRegular": 399,
     "priceDiscount": 349,
-    "colorsAvailable": ["pink", "spacegray"],
+    "colorsAvailable": ["spacegray", "pink"],
     "color": "pink",
     "images": [
       "img/tablets/apple-ipad-mini-6th-gen/pink/00.webp",
