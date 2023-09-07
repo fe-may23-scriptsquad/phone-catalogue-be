@@ -52,6 +52,13 @@ app.get('/products', async(req: Request, res: Response) => {
   const sortBy = req.query.sortBy || 'year';
   const orderIn = req.query.orderIn || 'DESC';
 
+  const orderBy = sortBy === 'discount'
+    ? sequelize.literal('("fullPrice" - price) DESC')
+    : [
+      [sortBy, orderIn],
+      ['id', 'ASC'],
+    ];
+
   try {
     const productsOnPage = await getAll({
       offset,
@@ -59,10 +66,7 @@ app.get('/products', async(req: Request, res: Response) => {
       where: {
         category,
       },
-      order: [
-        [sortBy, orderIn],
-        ['id', 'ASC'],
-      ],
+      order: orderBy,
     });
 
     res.status(200).json(productsOnPage);
