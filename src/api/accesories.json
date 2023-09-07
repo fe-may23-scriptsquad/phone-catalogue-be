@@ -86,8 +86,8 @@
   {
     "id": 214,
     "category": "accessories",
-    "itemId": "apple-watch-se-40mm-pink",
-    "name": "Apple Watch SE 40mm Pink",
+    "itemId": "apple-watch-se-44mm-pink",
+    "name": "Apple Watch SE 44mm Pink",
     "fullPrice": 279,
     "price": 249,
     "screen": "1.57' OLED",
@@ -114,8 +114,8 @@
   {
     "id": 216,
     "category": "accessories",
-    "itemId": "apple-watch-series-6-40mm-blue",
-    "name": "Apple Watch Series 6 40mm Blue",
+    "itemId": "apple-watch-series-6-44mm-blue",
+    "name": "Apple Watch Series 6 44mm Blue",
     "fullPrice": 399,
     "price": 349,
     "screen": "1.57' OLED",
@@ -142,8 +142,8 @@
   {
     "id": 218,
     "category": "accessories",
-    "itemId": "apple-watch-series-4-40mm-silver",
-    "name": "Apple Watch Series 4 40mm Silver",
+    "itemId": "apple-watch-series-4-44mm-silver",
+    "name": "Apple Watch Series 4 44mm Silver",
     "fullPrice": 399,
     "price": 349,
     "screen": "1.57' OLED",
