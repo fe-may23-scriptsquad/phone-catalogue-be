@@ -223,17 +223,26 @@ app.post('/getProductsByIds', async(req, res) => {
 });
 
 app.get('/details/:itemId/recommendations', async(req, res) => {
-  const itemId = parseInt(req.params.itemId);
+  const itemId = req.params.itemId;
+  const pageParam = req.query.page;
+  const pageSizeParam = req.query.pageSize;
+
+  const page = typeof pageParam === 'string'
+    ? parseInt(pageParam) : 1;
+  const pageSize = typeof pageSizeParam === 'string'
+    ? parseInt(pageSizeParam) : 10;
 
   try {
     const recommendations = await Product.findAll({
       where: {
-        id: {
+        itemId: {
           [Op.not]: itemId,
         },
       },
 
       order: sequelize.random(),
+      limit: pageSize,
+      offset: (page - 1) * pageSize,
     });
 
     res.send(recommendations);
