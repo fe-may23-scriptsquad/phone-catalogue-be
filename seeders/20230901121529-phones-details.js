@@ -3,6 +3,7 @@
 
 const phonesDetailsData = require('../src/api/phonesDetails.json');
 const tabletsDetailsData = require('../src/api/tabletsDetails.json');
+const accessoriesDetails = require('../src/api/accessoriesDetails.json');
 
 const tabletsData = tabletsDetailsData.map(tablet => ({
   ...tablet,
@@ -14,7 +15,14 @@ const phonesData = phonesDetailsData.map(phone => (
     description: JSON.stringify(phone.description) }
 ));
 
-const data = [...phonesData, ...tabletsData];
+const accessoriesData = accessoriesDetails.map(acc => (
+  {
+    ...acc,
+    description: JSON.stringify(acc.description),
+  }
+));
+
+const data = [...phonesData, ...tabletsData, ...accessoriesData];
 
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {

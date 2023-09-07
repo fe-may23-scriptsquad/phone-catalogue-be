@@ -1,10 +1,10 @@
 [
   {
-    "id": "apple-ipad-air-4th-gen-64gb-blue",
+    "id": "apple-ipad-air-4th-gen-256gb-blue",
     "namespaceId": "apple-ipad-air-4th-gen",
-    "name": "Apple iPad Air (4th Gen) 64GB Blue",
-    "capacityAvailable": ["64GB", "256GB"],
-    "capacity": "64GB",
+    "name": "Apple iPad Air (4th Gen) 256GB Blue",
+    "capacityAvailable": ["256GB"],
+    "capacity": "256GB",
     "priceRegular": 599,
     "priceDiscount": 549,
     "colorsAvailable": ["blue", "pink", "purple", "starlight"],
@@ -27,7 +27,7 @@
         "title": "Performance and Storage",
         "text": [
           "Powered by the Apple A14 Bionic chip and 3GB of RAM, this iPad delivers excellent performance for all your tasks.",
-          "The 64GB of storage provides ample space for your apps, photos, and more."
+          "The 256GB of storage provides ample space for your apps, photos, and more."
         ]
       },
       {
@@ -47,19 +47,19 @@
     "year": 2020
   },
   {
-    "id": "apple-ipad-pro-11-5th-gen-256gb-space-gray",
+    "id": "apple-ipad-pro-11-5th-gen-256gb-spacegray",
     "namespaceId": "apple-ipad-pro-11-5th-gen",
-    "name": "Apple iPad Pro (11-inch, 5th Gen) 512GB Space Gray",
+    "name": "Apple iPad Pro (11-inch, 5th Gen) 512GB spacegray",
     "capacityAvailable": ["256GB", "512GB"],
     "capacity": "512GB",
     "priceRegular": 999,
     "priceDiscount": 899,
-    "colorsAvailable": ["space-gray", "white"],
-    "color": "space-gray",
+    "colorsAvailable": ["spacegray", "white"],
+    "color": "spacegray",
     "images": [
-      "img/tablets/apple-ipad-pro-11-5th-gen/space-gray/00.webp",
-      "img/tablets/apple-ipad-pro-11-5th-gen/space-gray/01.webp",
-      "img/tablets/apple-ipad-pro-11-5th-gen/space-gray/02.webp"
+      "img/tablets/apple-ipad-pro-11-5th-gen/spacegray/00.webp",
+      "img/tablets/apple-ipad-pro-11-5th-gen/spacegray/01.webp",
+      "img/tablets/apple-ipad-pro-11-5th-gen/spacegray/02.webp"
     ],
     "description": [
       {
@@ -93,18 +93,18 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-mini-6th-gen-128gb-space-gray",
+    "id": "apple-ipad-mini-6th-gen-128gb-spacegray",
     "namespaceId": "apple-ipad-mini-6th-gen",
-    "name": "Apple iPad Mini (6th Gen) 128GB Space Gray",
-    "capacityAvailable": ["64GB", "128GB"],
+    "name": "Apple iPad Mini (6th Gen) 128GB spacegray",
+    "capacityAvailable": ["128GB"],
     "capacity": "128GB",
     "priceRegular": 499,
     "priceDiscount": 449,
-    "colorsAvailable": ["space gray", "pink"],
-    "color": "space-gray",
+    "colorsAvailable": ["spacegray", "pink"],
+    "color": "spacegray",
     "images": [
-      "img/tablets/apple-ipad-mini-6th-gen/space-gray/00.webp",
-      "img/tablets/apple-ipad-mini-6th-gen/space-gray/01.webp"
+      "img/tablets/apple-ipad-mini-6th-gen/spacegray/00.webp",
+      "img/tablets/apple-ipad-mini-6th-gen/spacegray/01.webp"
     ],
     "description": [
       {
@@ -145,7 +145,7 @@
     "capacity": "512GB",
     "priceRegular": 1299,
     "priceDiscount": 1199,
-    "colorsAvailable": ["silver", "space-gray"],
+    "colorsAvailable": ["spacegray", "silver"],
     "color": "silver",
     "images": [
       "img/tablets/apple-ipad-pro-12-9-4th-gen/silver/00.webp",
@@ -184,19 +184,19 @@
     "year": 2020
   },
   {
-    "id": "apple-ipad-9th-gen-32gb-space-gray",
+    "id": "apple-ipad-9th-gen-256gb-spacegray",
     "namespaceId": "apple-ipad-9th-gen",
-    "name": "Apple iPad (9th Gen) 32GB Space Gray",
-    "capacityAvailable": ["32GB", "128GB"],
-    "capacity": "32GB",
+    "name": "Apple iPad (9th Gen) 256GB spacegray",
+    "capacityAvailable": ["256GB"],
+    "capacity": "256GB",
     "priceRegular": 329,
     "priceDiscount": 299,
-    "colorsAvailable": ["space gray", "silver"],
-    "color": "space-gray",
+    "colorsAvailable": ["spacegray", "silver"],
+    "color": "spacegray",
     "images": [
-      "img/tablets/apple-ipad-9th-gen/space-gray/00.webp",
-      "img/tablets/apple-ipad-9th-gen/space-gray/01.webp",
-      "img/tablets/apple-ipad-9th-gen/space-gray/02.webp"
+      "img/tablets/apple-ipad-9th-gen/spacegray/00.webp",
+      "img/tablets/apple-ipad-9th-gen/spacegray/01.webp",
+      "img/tablets/apple-ipad-9th-gen/spacegray/02.webp"
     ],
     "description": [
       {
@@ -233,11 +233,11 @@
     "id": "apple-ipad-pro-11-6th-gen-1tb-silver",
     "namespaceId": "apple-ipad-pro-11-6th-gen",
     "name": "Apple iPad Pro (11-inch, 6th Gen) 1TB Silver",
-    "capacityAvailable": ["128GB", "1TB"],
+    "capacityAvailable": ["1TB"],
     "capacity": "1TB",
     "priceRegular": 1499,
     "priceDiscount": 1399,
-    "colorsAvailable": ["silver", "space-gray"],
+    "colorsAvailable": ["silver", "spacegray"],
     "color": "silver",
     "images": [
       "img/tablets/apple-ipad-pro-11-6th-gen/silver/00.webp",
@@ -276,14 +276,14 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-mini-5th-gen-64gb-pink",
+    "id": "apple-ipad-mini-5th-gen-256gb-pink",
     "namespaceId": "apple-ipad-mini-5th-gen",
-    "name": "Apple iPad Mini (5th Gen) 64GB Pink",
-    "capacityAvailable": ["64GB", "256GB"],
-    "capacity": "64GB",
+    "name": "Apple iPad Mini (5th Gen) 256GB Pink",
+    "capacityAvailable": ["256GB"],
+    "capacity": "256GB",
     "priceRegular": 549,
     "priceDiscount": 499,
-    "colorsAvailable": ["space-gray", "starlight", "purple", "pink"],
+    "colorsAvailable": ["pink", "purple", "spacegray", "starlight"],
     "color": "pink",
     "images": [
       "img/tablets/apple-ipad-mini-5th-gen/pink/00.webp",
@@ -324,7 +324,7 @@
     "id": "apple-ipad-air-4th-gen-256gb-pink",
     "namespaceId": "apple-ipad-air-4th-gen",
     "name": "Apple iPad Air (4th Gen) 256GB Pink",
-    "capacityAvailable": ["64GB", "256GB"],
+    "capacityAvailable": ["256GB"],
     "capacity": "256GB",
     "priceRegular": 749,
     "priceDiscount": 699,
@@ -375,7 +375,7 @@
     "capacity": "2TB",
     "priceRegular": 2499,
     "priceDiscount": 2399,
-    "colorsAvailable": ["space-gray", "silver"],
+    "colorsAvailable": ["silver", "spacegray"],
     "color": "silver",
     "images": [
       "img/tablets/apple-ipad-pro-12-9-5th-gen/silver/00.webp",
@@ -422,7 +422,7 @@
     "capacity": "128GB",
     "priceRegular": 429,
     "priceDiscount": 399,
-    "colorsAvailable": ["silver", "space-gray"],
+    "colorsAvailable": ["silver", "spacegray"],
     "color": "silver",
     "images": [
       "img/tablets/apple-ipad-10-2-7th-gen/silver/00.webp",
@@ -460,19 +460,19 @@
     "year": 2019
   },
   {
-    "id": "apple-ipad-pro-11-6th-gen-128gb-space-gray",
+    "id": "apple-ipad-pro-11-6th-gen-1tb-spacegray",
     "namespaceId": "apple-ipad-pro-11-6th-gen",
-    "name": "Apple iPad Pro (11-inch, 6th Gen) 128GB Space Gray",
-    "capacityAvailable": ["128GB", "1TB"],
-    "capacity": "128GB",
+    "name": "Apple iPad Pro (11-inch, 6th Gen) 1TB spacegray",
+    "capacityAvailable": ["1TB"],
+    "capacity": "1TB",
     "priceRegular": 799,
     "priceDiscount": 749,
-    "colorsAvailable": ["space-gray", "silver"],
-    "color": "space-gray",
+    "colorsAvailable": ["spacegray", "silver"],
+    "color": "spacegray",
     "images": [
-      "img/tablets/apple-ipad-pro-11-6th-gen/space-gray/00.webp",
-      "img/tablets/apple-ipad-pro-11-6th-gen/space-gray/01.webp",
-      "img/tablets/apple-ipad-pro-11-6th-gen/space-gray/02.webp"
+      "img/tablets/apple-ipad-pro-11-6th-gen/spacegray/00.webp",
+      "img/tablets/apple-ipad-pro-11-6th-gen/spacegray/01.webp",
+      "img/tablets/apple-ipad-pro-11-6th-gen/spacegray/02.webp"
     ],
     "description": [
       {
@@ -493,7 +493,7 @@
         "title": "Performance and Storage",
         "text": [
           "Powered by the A15 Bionic chip, this iPad Pro offers desktop-class performance for demanding tasks.",
-          "With 128GB of storage, you'll have ample space for all your files, projects, and creative work."
+          "With 1TB of storage, you'll have ample space for all your files, projects, and creative work."
         ]
       }
     ],
@@ -509,7 +509,7 @@
     "id": "apple-ipad-air-4th-gen-256gb-purple",
     "namespaceId": "apple-ipad-air-4th-gen",
     "name": "Apple iPad Air (4th Gen) 256GB Purple",
-    "capacityAvailable": ["64GB", "256GB"],
+    "capacityAvailable": ["256GB"],
     "capacity": "256GB",
     "priceRegular": 749,
     "priceDiscount": 699,
@@ -560,7 +560,7 @@
     "capacity": "128GB",
     "priceRegular": 399,
     "priceDiscount": 349,
-    "colorsAvailable": ["pink", "space-gray"],
+    "colorsAvailable": ["pink", "spacegray"],
     "color": "pink",
     "images": [
       "img/tablets/apple-ipad-mini-6th-gen/pink/00.webp",
@@ -598,19 +598,19 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-pro-12-9-4th-gen-512gb-space-gray",
+    "id": "apple-ipad-pro-12-9-4th-gen-512gb-spacegray",
     "namespaceId": "apple-ipad-pro-12-9-4th-gen",
-    "name": "Apple iPad Pro (12.9-inch, 4th Gen) 512GB Space Gray",
+    "name": "Apple iPad Pro (12.9-inch, 4th Gen) 512GB spacegray",
     "capacityAvailable": ["512GB"],
     "capacity": "512GB",
     "priceRegular": 1499,
     "priceDiscount": 1399,
-    "colorsAvailable": ["space-gray", "silver"],
-    "color": "space-gray",
+    "colorsAvailable": ["spacegray", "silver"],
+    "color": "spacegray",
     "images": [
-      "img/tablets/apple-ipad-pro-12-9-4th-gen/space-gray/00.webp",
-      "img/tablets/apple-ipad-pro-12-9-4th-gen/space-gray/01.webp",
-      "img/tablets/apple-ipad-pro-12-9-4th-gen/space-gray/02.webp"
+      "img/tablets/apple-ipad-pro-12-9-4th-gen/spacegray/00.webp",
+      "img/tablets/apple-ipad-pro-12-9-4th-gen/spacegray/01.webp",
+      "img/tablets/apple-ipad-pro-12-9-4th-gen/spacegray/02.webp"
     ],
     "description": [
       {
@@ -644,14 +644,14 @@
     "year": 2020
   },
   {
-    "id": "apple-ipad-9th-gen-64gb-silver",
+    "id": "apple-ipad-9th-gen-256gb-silver",
     "namespaceId": "apple-ipad-9th-gen",
-    "name": "Apple iPad (9th Gen) 64GB Silver",
-    "capacityAvailable": ["32GB", "64GB"],
-    "capacity": "64GB",
+    "name": "Apple iPad (9th Gen) 256GB Silver",
+    "capacityAvailable": ["256GB"],
+    "capacity": "256GB",
     "priceRegular": 399,
     "priceDiscount": 349,
-    "colorsAvailable": ["silver", "space-gray"],
+    "colorsAvailable": ["silver", "spacegray"],
     "color": "silver",
     "images": [
       "img/tablets/apple-ipad-9th-gen/silver/00.webp",
@@ -677,7 +677,7 @@
         "title": "Performance and Storage",
         "text": [
           "Powered by the A13 Bionic chip, this iPad delivers smooth performance for your apps and games.",
-          "With 64GB of storage, you have plenty of space for your apps and media."
+          "With 256GB of storage, you have plenty of space for your apps and media."
         ]
       }
     ],
@@ -697,7 +697,7 @@
     "capacity": "256GB",
     "priceRegular": 1299,
     "priceDiscount": 1199,
-    "colorsAvailable": ["white", "space gray"],
+    "colorsAvailable": ["spacegray", "white"],
     "color": "white",
     "images": [
       "img/tablets/apple-ipad-pro-11-5th-gen/white/00.webp",
@@ -736,14 +736,14 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-mini-5th-gen-64gb-purple",
+    "id": "apple-ipad-mini-5th-gen-256gb-purple",
     "namespaceId": "apple-ipad-mini-5th-gen",
-    "name": "Apple iPad Mini (5th Gen) 64GB Purple",
-    "capacityAvailable": ["64GB", "256GB"],
-    "capacity": "64GB",
+    "name": "Apple iPad Mini (5th Gen) 256GB Purple",
+    "capacityAvailable": ["256GB"],
+    "capacity": "256GB",
     "priceRegular": 399,
     "priceDiscount": 349,
-    "colorsAvailable": ["pink", "purple", "space-gray", "starlight"],
+    "colorsAvailable": ["pink", "purple", "spacegray", "starlight"],
     "color": "purple",
     "images": [
       "img/tablets/apple-ipad-mini-5th-gen/purple/00.webp",
@@ -768,7 +768,7 @@
         "title": "Performance and Storage",
         "text": [
           "Powered by the A12 Bionic chip, this iPad Mini offers fast performance for your apps and games.",
-          "With 64GB of storage, you have space for your apps and media."
+          "With 256GB of storage, you have space for your apps and media."
         ]
       }
     ],
@@ -781,18 +781,18 @@
     "year": 2019
   },
   {
-    "id": "apple-ipad-mini-5th-gen-256gb-space-gray",
+    "id": "apple-ipad-mini-5th-gen-256gb-spacegray",
     "namespaceId": "apple-ipad-mini-5th-gen",
-    "name": "Apple iPad Mini (5th Gen) 256GB Space Gray",
-    "capacityAvailable": ["64GB", "256GB"],
+    "name": "Apple iPad Mini (5th Gen) 256GB spacegray",
+    "capacityAvailable": ["256GB"],
     "capacity": "256GB",
     "priceRegular": 399,
     "priceDiscount": 349,
-    "colorsAvailable": ["pink", "purple", "space-gray", "starlight"],
-    "color": "space-gray",
+    "colorsAvailable": ["pink", "purple", "spacegray", "starlight"],
+    "color": "spacegray",
     "images": [
-      "img/tablets/apple-ipad-mini-5th-gen/space-gray/00.webp",
-      "img/tablets/apple-ipad-mini-5th-gen/space-gray/01.webp"
+      "img/tablets/apple-ipad-mini-5th-gen/spacegray/00.webp",
+      "img/tablets/apple-ipad-mini-5th-gen/spacegray/01.webp"
     ],
     "description": [
       {
@@ -813,7 +813,7 @@
         "title": "Performance and Storage",
         "text": [
           "Powered by the A12 Bionic chip, this iPad Mini offers fast performance for your apps and games.",
-          "With 64GB of storage, you have space for your apps and media."
+          "With 256GB of storage, you have space for your apps and media."
         ]
       }
     ],
@@ -826,14 +826,14 @@
     "year": 2019
   },
   {
-    "id": "apple-ipad-mini-5th-gen-64gb-starlight",
+    "id": "apple-ipad-mini-5th-gen-256gb-starlight",
     "namespaceId": "apple-ipad-mini-5th-gen",
-    "name": "Apple iPad Mini (5th Gen) 64GB Starlight",
-    "capacityAvailable": ["64GB", "256GB"],
-    "capacity": "64GB",
+    "name": "Apple iPad Mini (5th Gen) 256GB Starlight",
+    "capacityAvailable": ["256GB"],
+    "capacity": "256GB",
     "priceRegular": 399,
     "priceDiscount": 349,
-    "colorsAvailable": ["pink", "purple", "space-gray", "starlight"],
+    "colorsAvailable": ["pink", "purple", "spacegray", "starlight"],
     "color": "starlight",
     "images": [
       "img/tablets/apple-ipad-mini-5th-gen/starlight/00.webp",
@@ -858,7 +858,7 @@
         "title": "Performance and Storage",
         "text": [
           "Powered by the A12 Bionic chip, this iPad Mini offers fast performance for your apps and games.",
-          "With 64GB of storage, you have space for your apps and media."
+          "With 256GB of storage, you have space for your apps and media."
         ]
       }
     ],
@@ -871,11 +871,11 @@
     "year": 2019
   },
   {
-    "id": "apple-ipad-air-4th-gen-64gb-starlight",
+    "id": "apple-ipad-air-4th-gen-256gb-starlight",
     "namespaceId": "apple-ipad-air-4th-gen",
-    "name": "Apple iPad Air (4th Gen) 64GB Starlight",
-    "capacityAvailable": ["64GB", "256GB"],
-    "capacity": "64GB",
+    "name": "Apple iPad Air (4th Gen) 256GB Starlight",
+    "capacityAvailable": ["256GB"],
+    "capacity": "256GB",
     "priceRegular": 599,
     "priceDiscount": 549,
     "colorsAvailable": ["blue", "pink", "purple", "starlight"],
@@ -905,7 +905,7 @@
         "title": "Performance and Storage",
         "text": [
           "Powered by the A14 Bionic chip, this iPad Air offers swift performance for all your tasks.",
-          "With 64GB of storage, you'll have space for your apps and creativity."
+          "With 256GB of storage, you'll have space for your apps and creativity."
         ]
       }
     ],
@@ -918,20 +918,20 @@
     "year": 2020
   },
   {
-    "id": "apple-ipad-pro-12-9-5th-gen-2tb-space-gray",
+    "id": "apple-ipad-pro-12-9-5th-gen-2tb-spacegray",
     "namespaceId": "apple-ipad-pro-12-9-5th-gen",
-    "name": "Apple iPad Pro (12.9-inch, 5th Gen) 2TB Space Gray",
+    "name": "Apple iPad Pro (12.9-inch, 5th Gen) 2TB spacegray",
     "capacityAvailable": ["2TB"],
     "capacity": "2TB",
     "priceRegular": 2499,
     "priceDiscount": 2399,
-    "colorsAvailable": ["silver", "space-gray"],
-    "color": "space-gray",
+    "colorsAvailable": ["silver", "spacegray"],
+    "color": "spacegray",
     "images": [
-      "img/tablets/apple-ipad-pro-12-9-5th-gen/space-gray/00.webp",
-      "img/tablets/apple-ipad-pro-12-9-5th-gen/space-gray/01.webp",
-      "img/tablets/apple-ipad-pro-12-9-5th-gen/space-gray/02.webp",
-      "img/tablets/apple-ipad-pro-12-9-5th-gen/space-gray/03.webp"
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/spacegray/00.webp",
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/spacegray/01.webp",
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/spacegray/02.webp",
+      "img/tablets/apple-ipad-pro-12-9-5th-gen/spacegray/03.webp"
     ],
     "description": [
       {
@@ -965,26 +965,26 @@
     "year": 2021
   },
   {
-    "id": "apple-ipad-10-2-7th-gen-128gb-space-gray",
+    "id": "apple-ipad-10-2-7th-gen-128gb-spacegray",
     "namespaceId": "apple-ipad-10-2-7th-gen",
-    "name": "Apple iPad (10.2-inch, 7th Gen) 128GB Space Gray",
+    "name": "Apple iPad (10.2-inch, 7th Gen) 128GB spacegray",
     "capacityAvailable": ["128GB"],
     "capacity": "128GB",
     "priceRegular": 429,
     "priceDiscount": 399,
-    "colorsAvailable": ["silver", "space-gray"],
-    "color": "space-gray",
+    "colorsAvailable": ["silver", "spacegray"],
+    "color": "spacegray",
     "images": [
-      "img/tablets/apple-ipad-10-2-7th-gen/space-gray/00.webp",
-      "img/tablets/apple-ipad-10-2-7th-gen/space-gray/01.webp",
-      "img/tablets/apple-ipad-10-2-7th-gen/space-gray/02.webp",
-      "img/tablets/apple-ipad-10-2-7th-gen/space-gray/03.webp"
+      "img/tablets/apple-ipad-10-2-7th-gen/spacegray/00.webp",
+      "img/tablets/apple-ipad-10-2-7th-gen/spacegray/01.webp",
+      "img/tablets/apple-ipad-10-2-7th-gen/spacegray/02.webp",
+      "img/tablets/apple-ipad-10-2-7th-gen/spacegray/03.webp"
     ],
     "description": [
       {
         "title": "Everyday Companion",
         "text": [
-          "The 7th Gen iPad is your perfect everyday companion in space gray.",
+          "The 7th Gen iPad is your perfect everyday companion in spacegray.",
           "With a 10.2-inch Retina display and the A10 Fusion chip, it's designed for versatility."
         ]
       },
