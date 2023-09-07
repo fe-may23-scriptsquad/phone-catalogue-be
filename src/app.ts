@@ -46,7 +46,7 @@ app.get('/products', async(req: Request, res: Response) => {
   }
 
   const offset = (page - 1) * perPage;
-  const category = req.query.category || 'phones';
+  const category = req.query.category || ['phones', 'tablets', 'accessories'];
 
   const sortBy = req.query.sortBy || 'year';
   const orderIn = req.query.orderIn || 'DESC';

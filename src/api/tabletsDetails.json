@@ -49,7 +49,7 @@
   {
     "id": "apple-ipad-pro-11-5th-gen-256gb-spacegray",
     "namespaceId": "apple-ipad-pro-11-5th-gen",
-    "name": "Apple iPad Pro (11-inch, 5th Gen) 512GB spacegray",
+    "name": "Apple iPad Pro (11-inch, 5th Gen) 512GB Space Gray",
     "capacityAvailable": ["256GB"],
     "capacity": "512GB",
     "priceRegular": 999,
@@ -95,7 +95,7 @@
   {
     "id": "apple-ipad-mini-6th-gen-128gb-spacegray",
     "namespaceId": "apple-ipad-mini-6th-gen",
-    "name": "Apple iPad Mini (6th Gen) 128GB spacegray",
+    "name": "Apple iPad Mini (6th Gen) 128GB Space Gray",
     "capacityAvailable": ["128GB"],
     "capacity": "128GB",
     "priceRegular": 499,
@@ -186,7 +186,7 @@
   {
     "id": "apple-ipad-9th-gen-256gb-spacegray",
     "namespaceId": "apple-ipad-9th-gen",
-    "name": "Apple iPad (9th Gen) 256GB spacegray",
+    "name": "Apple iPad (9th Gen) 256GB Space Gray",
     "capacityAvailable": ["256GB"],
     "capacity": "256GB",
     "priceRegular": 329,
@@ -462,7 +462,7 @@
   {
     "id": "apple-ipad-pro-11-6th-gen-1tb-spacegray",
     "namespaceId": "apple-ipad-pro-11-6th-gen",
-    "name": "Apple iPad Pro (11-inch, 6th Gen) 1TB spacegray",
+    "name": "Apple iPad Pro (11-inch, 6th Gen) 1TB Space Gray",
     "capacityAvailable": ["1TB"],
     "capacity": "1TB",
     "priceRegular": 799,
@@ -600,7 +600,7 @@
   {
     "id": "apple-ipad-pro-12-9-4th-gen-512gb-spacegray",
     "namespaceId": "apple-ipad-pro-12-9-4th-gen",
-    "name": "Apple iPad Pro (12.9-inch, 4th Gen) 512GB spacegray",
+    "name": "Apple iPad Pro (12.9-inch, 4th Gen) 512GB Space Gray",
     "capacityAvailable": ["512GB"],
     "capacity": "512GB",
     "priceRegular": 1499,
@@ -783,7 +783,7 @@
   {
     "id": "apple-ipad-mini-5th-gen-256gb-spacegray",
     "namespaceId": "apple-ipad-mini-5th-gen",
-    "name": "Apple iPad Mini (5th Gen) 256GB spacegray",
+    "name": "Apple iPad Mini (5th Gen) 256GB Space Gray",
     "capacityAvailable": ["256GB"],
     "capacity": "256GB",
     "priceRegular": 399,
@@ -920,7 +920,7 @@
   {
     "id": "apple-ipad-pro-12-9-5th-gen-2tb-spacegray",
     "namespaceId": "apple-ipad-pro-12-9-5th-gen",
-    "name": "Apple iPad Pro (12.9-inch, 5th Gen) 2TB spacegray",
+    "name": "Apple iPad Pro (12.9-inch, 5th Gen) 2TB Space Gray",
     "capacityAvailable": ["2TB"],
     "capacity": "2TB",
     "priceRegular": 2499,
@@ -967,7 +967,7 @@
   {
     "id": "apple-ipad-10-2-7th-gen-128gb-spacegray",
     "namespaceId": "apple-ipad-10-2-7th-gen",
-    "name": "Apple iPad (10.2-inch, 7th Gen) 128GB spacegray",
+    "name": "Apple iPad (10.2-inch, 7th Gen) 128GB Space Gray",
     "capacityAvailable": ["128GB"],
     "capacity": "128GB",
     "priceRegular": 429,
