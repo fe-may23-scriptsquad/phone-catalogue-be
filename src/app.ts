@@ -225,8 +225,24 @@ app.post('/getProductsByIds', async(req, res) => {
 app.get('/details/:itemId/recommendations', async(req, res) => {
   const itemId = parseInt(req.params.itemId);
 
+  let page = 1;
+
+  if (typeof req.query.page === 'string') {
+    page = parseInt(req.query.page);
+  }
+
+  let perPage = 16;
+
+  if (typeof req.query.limit === 'string') {
+    perPage = parseInt(req.query.limit);
+  }
+
+  const offset = (page - 1) * perPage;
+
   try {
     const recommendations = await Product.findAll({
+      offset,
+      limit: perPage,
       where: {
         id: {
           [Op.not]: itemId,
