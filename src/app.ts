@@ -224,25 +224,31 @@ app.post('/getProductsByIds', async(req, res) => {
 
 app.get('/details/:itemId/recommendations', async(req, res) => {
   const itemId = req.params.itemId;
-  const pageParam = req.query.page;
-  const pageSizeParam = req.query.pageSize;
-
-  const page = typeof pageParam === 'string'
-    ? parseInt(pageParam) : 1;
-  const pageSize = typeof pageSizeParam === 'string'
-    ? parseInt(pageSizeParam) : 10;
 
   try {
+    const foundItem = await Product.findOne({
+      where: {
+        itemId,
+      },
+    });
+
+    let capacity = '32GB';
+    let year = 2020;
+    let price = 1000;
+
+    if (foundItem) {
+      capacity = foundItem.capacity || '32GB';
+      year = foundItem.year || 2020;
+      price = foundItem.price || 1000;
+    }
+
     const recommendations = await Product.findAll({
       where: {
+        [Op.or]: [{ year }, { capacity }, { price }],
         itemId: {
           [Op.not]: itemId,
         },
       },
-
-      order: sequelize.random(),
-      limit: pageSize,
-      offset: (page - 1) * pageSize,
     });
 
     res.send(recommendations);
