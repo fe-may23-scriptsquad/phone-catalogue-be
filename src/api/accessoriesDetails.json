@@ -213,8 +213,8 @@
     "colorsAvailable": ["black"],
     "color": "black",
     "images": [
-      "img/accessories/apple-watch-series-3/black/00.jpeg",
-      "img/accessories/apple-watch-series-3/black/01.jpeg"
+      "img/accessories/apple-watch-series-3/black/00.jpg",
+      "img/accessories/apple-watch-series-3/black/01.jpg"
     ],
     "description": [
       {
@@ -252,9 +252,9 @@
     "colorsAvailable": ["midnight", "navyblue", "pink"],
     "color": "pink",
     "images": [
-      "img/accessories/apple-watch-se/pink/00.jpeg",
-      "img/accessories/apple-watch-se/pink/01.jpeg",
-      "img/accessories/apple-watch-se/pink/02.jpeg"
+      "img/accessories/apple-watch-se/pink/00.jpg",
+      "img/accessories/apple-watch-se/pink/01.jpg",
+      "img/accessories/apple-watch-se/pink/02.jpg"
     ],
     "description": [
       {
@@ -372,9 +372,9 @@
     "colorsAvailable": ["gold"],
     "color": "gold",
     "images": [
-      "img/accessories/apple-watch-series-5/gold/00.jpeg",
-      "img/accessories/apple-watch-series-5/gold/01.jpeg",
-      "img/accessories/apple-watch-series-5/gold/02.jpeg"
+      "img/accessories/apple-watch-series-5/gold/00.jpg",
+      "img/accessories/apple-watch-series-5/gold/01.jpg",
+      "img/accessories/apple-watch-series-5/gold/02.jpg"
     ],
     "description": [
       {
@@ -412,9 +412,9 @@
     "colorsAvailable": ["rosegold", "silver"],
     "color": "silver",
     "images": [
-      "img/accessories/apple-watch-series-4/silver/00.jpeg",
-      "img/accessories/apple-watch-series-4/silver/01.jpeg",
-      "img/accessories/apple-watch-series-4/silver/02.jpeg"
+      "img/accessories/apple-watch-series-4/silver/00.jpg",
+      "img/accessories/apple-watch-series-4/silver/01.jpg",
+      "img/accessories/apple-watch-series-4/silver/02.jpg"
     ],
     "description": [
       {
