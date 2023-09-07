@@ -1,7 +1,11 @@
 import { Model, DataTypes } from 'sequelize';
 import { sequelize } from '../sequelize';
 
-class Product extends Model {}
+class Product extends Model {
+  capacity: string | undefined;
+  year: number | undefined;
+  price: number | undefined;
+}
 
 Product.init({
   id: {
